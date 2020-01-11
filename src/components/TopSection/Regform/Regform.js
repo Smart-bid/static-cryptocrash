@@ -118,7 +118,7 @@ export default class Regform extends Component {
                                                 value = value.replace(/\D/g, '');
                                                 this.updateValue(value, 'phone_number')
                                             }}/>
-                                            <label>{version.phone}</label>
+                                       <label>{version.phone}</label>
                                     </div>
                                     <div className="form__field-group form__field-group-w50 form__field-type">
                                         <input className="inputfield password" type="password" maxLength="8"
@@ -134,45 +134,59 @@ export default class Regform extends Component {
                                         {/*</ul>*/}
                                     </div>
                                 </div>
+                                <div className="form__field-row">
+                                    <div className="form__field-group form__field-group-w100 form__field-checkbox">
+                                        <label>
+                                            <input type="checkbox" name="agree_one"/>
+                                            <span>{version.req1[0]} </span>
+                                        </label>
+                                    </div>
+                                    <div className="form__field-group form__field-group-w100 form__field-checkbox">
+                                        <label>
+                                            <input type="checkbox"
+                                                   className='accept'
+                                                   checked={this.props.syncState.form.agree_2}
+                                                   name="agree_2"
+                                                   onChange={e => {this.toggleTooltip(e.target.name); this.updateValue(e.target.checked, e.target.name)}}/>
+                                                <span>{version.req2[0]}
+                                                    <a href="/terms">{version.req2[1]}</a> {version.req2[2]}
+                                                    <a href="/privacy">{version.req2[3]}</a>
+                                                </span>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div className='agreement'>
-                                <input type="checkbox" name="agree_one"/>
-                                <span>{version.req1[0]} </span>
+                            <div className="form__field-row">
+                                <button className="form_button-submit"
+                                        onClick={this.handleSubmit.bind(this)}>{version.button_last}</button>
                             </div>
-                            <div className='agreement required'>
-                                <input type="checkbox" className='accept' checked={this.props.syncState.form.agree_2}
-                                       name="agree_2" onChange={e => {
-                                    this.toggleTooltip(e.target.name);
-                                    this.updateValue(e.target.checked, e.target.name)
-                                }}/>
-                                <span>{version.req2[0]}
-                                    {/*<Link to='/terms'>{version.req2[1]}</Link>{version.req2[2]}*/}
-                                    {/*<Link to='/privacy'>{version.req2[3]}</Link>{version.req2[4]}*/}
-                                </span>
-                                {((this.props.syncState.errors['agree_2'] && this.props.syncState.errors['agree_2'].messages)) ?
-                                    <div
-                                        ref={ref => this.tooltips['agree_2'] = ref}
-                                        style={{opacity: (this.props.syncState.errors['agree_2']) ? 1 : 0}}
-                                        className="error agree">
-                                        <Mark className='excl'/>
-                                        <span>{(this.props.syncState.errors['agree_2'] && this.props.syncState.errors['agree_2'].messages) ? this.props.syncState.errors['agree_2'].messages[0] : ''}</span>
-                                    </div> : ''}
-                            </div>
-                            <button className='start' onClick={this.handleForward.bind(this)}>{version.button}</button>
-                            <div className="bottominfo"><img src={lock} alt="lock"/>{version.bottominfo}
-                                <div className="more" onMouseOver={() => this.infoBox.style.opacity = "1"}
-                                     onMouseOut={() => this.infoBox.style.opacity = "0"}>{version.more}</div>
-                                <div className="morebox" ref={ref => this.infoBox = ref}>{version.morebox}</div>
-                            </div>
-                        </div>
-                        <div className={'form-wrapper two' + ((this.props.syncState.step > 2) ? ' step' : '')}>
 
-                            <button className='start' onClick={this.handleForward.bind(this)}>{version.button}</button>
+                            <div className="form__field-row">
+                                <div className="form__field-gdpr">
+                                    <img src={lock} alt="lock"/>
+                                    <span>
+                                        {version.bottominfo[0]}<br/>
+                                        {version.bottominfo[1]}<br/>
+                                        <span className="form__field-gdpr-tooltiplink">
+                                            {version.more}
+                                            <span className="form__field-gdpr-tooltiptext">
+                                                {version.morebox}
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            {/*<div className="bottominfo">*/}
+                            {/*    */}
+                            {/*    */}
+                            {/*    <div className="more" onMouseOver={() => this.infoBox.style.opacity = "1"}*/}
+                            {/*         onMouseOut={() => this.infoBox.style.opacity = "0"}>{version.more}</div>*/}
+                            {/*    <div className="morebox" ref={ref => this.infoBox = ref}>{version.morebox}</div>*/}
+                            {/*</div>*/}
                         </div>
                         <div className='form-wrapper three'>
-                            <button className='start'
-                                    onClick={this.handleSubmit.bind(this)}>{version.button_last}</button>
+
                         </div>
                     </div>
 

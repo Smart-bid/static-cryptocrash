@@ -4,10 +4,18 @@ import Header from './Header/Header'
 import VideoPlayer from './VideoPlayer/VideoPlayer.js'
 import Regform  from './Regform/Regform'
 
-import video from './btcvid.mp4'
-import badges from './badges.png'
-import formArrow from './arrow.svg'
 import {register} from "../../serviceWorker";
+
+//Images
+import formArrow from './images/arrow.svg'
+import lockIcon from './images/lock.svg'
+import norton from './images/norton_logo.png'
+import mcafee from './images/mcafee_logo.png'
+import truste from './images/truste_logo.png'
+import bbb from './images/bbb_logo.png'
+import nasdaq from './images/nasdaq_logo.png'
+import euronext from './images/euronext_logo.png'
+import tmx from './images/tmx_logo.png'
 
 export default class TopSection extends Component {
     constructor(props) {
@@ -46,7 +54,7 @@ export default class TopSection extends Component {
                             <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                                 <div className="videoOuterWrap">
                                     <div id="mainVideo">
-                                        <VideoPlayer link={video} version={version} step={this.props.syncState.step}/>
+                                        <VideoPlayer version={version} step={this.props.syncState.step}/>
                                     </div>
                                 </div>
                             </div>
@@ -62,9 +70,24 @@ export default class TopSection extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="row">
+                            <div className="col-xs-12">
+                                <div className="flex-row logos-video">
+                                    <img src={lockIcon} alt="" className="lockIcon"/>
+
+                                    {
+                                        version.logoList.map((item)=> {
+                                            return(
+                                                <img src={item} alt="" className="img-responsive"/>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
-                <img src={badges} alt="badges" className="badges"/>
+
                 <div className="modalscreen" style={{display: (this.state.showmodal) ? 'flex' : 'none'}}>
                     <div className="modal">
                         <div className="close" onClick={this.handleClose.bind(this)}>×</div>

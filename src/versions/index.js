@@ -25,9 +25,9 @@ export const en = {
         'Privacy Policy.'
     ],
     req2: [
-        'I agree with the ',
+        'By filling out and sending us the registration form you agree with the ',
         'Terms & Conditions',
-        ' and ',
+        ' and the ',
         'Privacy Policy'
     ],
     button: 'Next',
@@ -39,9 +39,21 @@ export const en = {
         'Must contain at least 1 capital letter.',
         'Must contain at least 1 number.'
     ],
-    bottominfo: 'Your data is always protected with us. You can change your mind anytime by...',
+    bottominfo: [
+        'Your data is always protected with us.',
+        'You can change your mind anytime by...'
+    ],
     more: 'more',
     morebox: 'You can change your mind at any time by clicking on the unsubscribe link in the footer of any email you receive from us. We will treat your information with respect. By clicking above, you agree that we may process your information in accordance with these terms.',
+    logoList: [
+      'norton',
+      'mcafee',
+      'truste',
+      'bbb',
+      'nasdaq',
+      'euronext',
+      'tmx'
+    ],
     qna_title: 'FAQ',
     qna_subtitle: 'Here are the most common questions with our answers.',
     qna: [
