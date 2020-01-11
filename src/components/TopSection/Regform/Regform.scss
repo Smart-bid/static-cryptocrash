@@ -1,0 +1,13 @@
+.intl-tel-input {
+    .flag-container {
+        .selected-flag {
+            z-index: 99;
+        }
+    }
+    ~label {
+        left: 45px !important;
+    }
+    input[type='tel'] {
+        padding-left: 50px !important;
+    }
+}
