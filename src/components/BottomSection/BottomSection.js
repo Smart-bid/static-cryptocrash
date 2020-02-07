@@ -16,7 +16,7 @@ export default class BottomSection extends Component {
                         <div className="title">{version.topreg1}</div>
                         <div className="subtitle">{version.topreg2}</div>
                         <div className="regform">
-                            <Regform {...this.props} />
+                            {/*<Regform {...this.props} />*/}
                         </div>
                     </div>
                 </div>
@@ -25,11 +25,11 @@ export default class BottomSection extends Component {
                         <img src={logo} alt="logo" className="footerlogo"/>
                         <div className="copyright">Copyright {(new Date).getFullYear()} The Bitcoin Profit</div>
                         <div className="links">
-                            <Link to='/gov'>Government Disclaimer</Link>
-                            <Link to='/privacy'>Privacy Policy</Link>
-                            <Link to='/terms'>Terms</Link>
-                            <Link to='/disc'>Earnings Disclaimer</Link>
-                            <Link to='/spam'>Spam Policy</Link>
+                            {/*<Link to='/gov'>Government Disclaimer</Link>*/}
+                            {/*<Link to='/privacy'>Privacy Policy</Link>*/}
+                            {/*<Link to='/terms'>Terms</Link>*/}
+                            {/*<Link to='/disc'>Earnings Disclaimer</Link>*/}
+                            {/*<Link to='/spam'>Spam Policy</Link>*/}
                         </div>
                         <div className="risk">
                             <p>

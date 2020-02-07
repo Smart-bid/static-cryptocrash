@@ -14,7 +14,8 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.0",
-    "sb-lp-framework": "^1.0.74"
+    "react-vimeo": "^2.0.0",
+    "sb-lp-framework": "^1.5.5"
   },
   "scripts": {
     "start": "react-scripts start",

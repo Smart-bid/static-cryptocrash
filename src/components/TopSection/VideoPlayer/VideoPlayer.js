@@ -1,58 +1,47 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 import ReactPlayer from 'react-player'
 
 import btn from './play_btn.png'
- 
+
 export default class VideoPlayer extends Component {
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-      play: false,
-      height: 0
+    constructor(props) {
+        super(props)
+        this.state = {
+            play: false,
+            link: 'https://player.vimeo.com/video/323785939?app_id=122963'
+        }
     }
 
-    this.updateHeight = this.updateHeight.bind(this)
-  }
-
-  handlePlay() {
-    if (window.sbidTracking) {
-        window.sbidTracking.settings.params.video_play = "1";
+    handlePlay() {
+        if (window.sbidTracking) {
+            window.sbidTracking.settings.params.video_play = "1";
+        }
+        this.setState({play: true});
     }
-    this.setState({play: true});
-  }
 
-  componentDidMount() {
-    this.updateHeight()
-    window.addEventListener('resize', this.updateHeight)
-  }
+    render() {
+        let languageManager = this.props.version;
 
-  componentDidUpdate(prevProps) {
-    if (prevProps.step !== this.props.step) this.updateHeight()
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateHeight)
-  }
-
-  updateHeight() {
-    this.setState({height: ReactDOM.findDOMNode(this).offsetHeight})
-  }
-
-  render () {
-    let version = this.props.version;
-
-    return (
-      <div className="VideoPlayer" ref={this.player}>
-        <div className="info" style={{display: (this.state.play) ? 'none' : 'block', height: this.state.height}}>
-          <div className="inner">
-            <div className="text">{version.video}</div>
-            <img src={btn} alt="play" onClick={this.handlePlay.bind(this)}/>
-          </div>
-        </div>
-        <ReactPlayer url={this.props.link} playing={this.state.play} controls={true} width='99.8%' height='100%'/>
-      </div>
-    )
-  }
+        return (
+            <div className="VideoPlayer component-ivideo">
+                <div className="videoWrapper">
+                    <ReactPlayer
+                        url={this.state.link}
+                        playing={this.state.play}
+                        controls={true}
+                        width='100%'
+                        height='100%'
+                        onClick={()=>{this.props.trackVideoPlay()}}
+                    />
+                </div>
+                <div className="videoOverlayInner" style={{display: this.state.play ? 'none' : ""}}>
+                    <div className="videoOverlayHeadline">{languageManager.video}</div>
+                    <a href="#overlay?" id="videoOverlayPlay">
+                        <img src={btn} alt="play" onClick={this.handlePlay.bind(this)}/>
+                    </a>
+                </div>
+            </div>
+        )
+    }
 }

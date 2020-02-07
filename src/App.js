@@ -28,31 +28,22 @@ export default class App extends ReactQueryParams {
 
     render() {
         return (
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path = '/'>
-                        <div className='App'>
-                            <TopSection {...this.props} 
-                                handleStep={(step) => this.setState({step})}
-                                syncForms={(form) => this.setState({form})} 
-                                syncErrors={(errors) => this.setState({errors})} 
-                                syncState={this.state}/>
+            <div className='App'>
+                <TopSection {...this.props}
+                    handleStep={(step) => this.setState({step})}
+                    syncForms={(form) => this.setState({form})}
+                    syncErrors={(errors) => this.setState({errors})}
+                    syncState={this.state}/>
 
-                            <MidSection languageManager={this.props.languageManager}/>
+                <MidSection languageManager={this.props.languageManager}/>
 
-                            <BottomSection {...this.props}
-                                handleStep={(step) => this.setState({step})}
-                                syncForms={(form) => this.setState({form})} 
-                                syncErrors={(errors) => this.setState({errors})} 
-                                syncState={this.state}/>
+                <BottomSection {...this.props}
+                    handleStep={(step) => this.setState({step})}
+                    syncForms={(form) => this.setState({form})}
+                    syncErrors={(errors) => this.setState({errors})}
+                    syncState={this.state}/>
 
-                        </div>
-                    </Route>
-                    {/*{Object.keys(pages).map(page => */}
-                    {/*    <Route path={'/' + page} key={page}> <Page page={pages[page]}/> </Route>*/}
-                    {/*)}*/}
-                </Switch>
-            </BrowserRouter>
+            </div>
         )
     }
 }

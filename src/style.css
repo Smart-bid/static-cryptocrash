@@ -1777,6 +1777,14 @@ table {
     background-color: transparent
 }
 
+.player {
+    max-width: 100% !important;
+}
+
+#mainVideo, .component-ivideo {
+    height: 100%;
+}
+
 caption {
     padding-top: 8px;
     padding-bottom: 8px;

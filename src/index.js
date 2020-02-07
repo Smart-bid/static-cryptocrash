@@ -10,7 +10,7 @@ import * as versions from './versions'
 
 ReactDOM.render(
     <LpFramework
-        funnel_name={"Bitcoin Profit"}
+        funnel_name={"CryptoCrash Fortune"}
         resourceFile={versions}>
         <LpFrameworkWrapper Component={App}/>
     </LpFramework>,
