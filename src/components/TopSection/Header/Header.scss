@@ -1,0 +1,61 @@
+.header-container {
+    background: url("./header_bg.jpg") no-repeat 50%;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-radius: 0 100% 81% 19%/87% 0 100% 13%;
+    overflow: hidden;
+    @media (max-width: 768px) {
+        border-radius: 0% 100% 40% 40%/0% 0% 10% 10%;
+    }
+    .container {
+        .advertioral {
+            margin-bottom: 15px;
+            text-align: center;
+            p {
+                font-size: 13px;
+                color: #fff;
+                margin: 0;
+            }
+        }
+        .logo {
+            img {
+                height: 55px;
+            }
+        }
+        .text-zone {
+            max-width: 1000px;
+            padding-top: 30px;
+            h1 {
+                font-size: 52px;
+                color: #fff;
+                font-weight: 900;
+                @media (max-width: 1280px) {
+                    font-size: 40px;
+                }
+                @media (max-width: 479px) {
+                    font-size: 26px;
+                }
+            }
+            h2 {
+                font-size: 28px;
+                color: #fff;
+                @media (max-width: 479px) {
+                    font-size: 24px;
+                }
+                span {
+                    display: inline-block;
+                    background-color: $blue;
+                    padding: 3px 6px;
+                    border-radius: 4px;
+                    text-decoration: underline;
+                    transition: .25s all;
+                    cursor: default;
+                    &:hover {
+                        background-color: $purple;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.scss';
-import './style.css';
-import './style.min.css';
+import { LpFramework, LpFrameworkWrapper } from 'sb-lp-framework';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { LpFramework, LpFrameworkWrapper } from 'sb-lp-framework'
-import * as versions from './versions'
 
 ReactDOM.render(
     <LpFramework
-        funnel_name={"CryptoCrash Fortune"}
-        resourceFile={versions}>
+        resourceFile={require('./resources/languages.json')}
+        funnel_name={"Bitcoin Compass"}>
         <LpFrameworkWrapper Component={App}/>
     </LpFramework>,
     document.getElementById('root')

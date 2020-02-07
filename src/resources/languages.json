@@ -1,0 +1,1100 @@
+{
+  "en": {
+    "modal_title": [
+      "Wait!",
+      "Before you leave..."
+    ],
+    "modal_subtitle": [
+      "The markets are moving fast. Don’t miss out on your chance to profit from the latest rises and falls.",
+      "Register today and join the thousands of people changing their lives thanks to online trading."
+    ],
+    "header_title": "– Advertorial –",
+    "title": "Benefit from bitcoin even when the crypto markets are crashing.",
+    "subtitle": [
+      "Join today",
+      " and see",
+      "how much you can make"
+    ],
+    "title_form": [
+      "SIGN UP BELOW",
+      "and we’ll guide you through the process."
+    ],
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email",
+    "password": "Password",
+    "phone_number": "Phone",
+    
+    "button": "Get Access Now",
+    "passtest": {
+      "invalidlength": "The password must be 8 characters long.",
+      "nospecial": "Must not contain special characters.",
+      "nolowercase": "Must contain at least 1 letter.",
+      "nonumber": "Must contain at least 1 number.",
+      "nouppercase": "Must contain at least 1 capital letter."
+    },
+    "agreement_first": "I agree to the processing of my email address for the purposes of receiving commercial offers that we believe will be of interest to you on behalf of the companies and industries explicitly detailed in our Privacy Policy",
+    "agreement_second": [
+      "By filling out and sending us the registration form you agree with the Terms & Conditions and the Privacy Policy",
+      "Terms & Conditions",
+      "Privacy Policy"
+    ],
+    "more_title": [
+      "Your data is always protected with us.\nYou can change your mind anytime by...\n",
+      "more"
+    ],
+    "more_decription": "You can change your mind at any time by clicking on the unsubscribe link in the footer of any email you receive from us. We will treat your information with respect. By clicking above, you agree that we may process your information in accordance with these terms.",
+
+    "video_placeholder": "Tap to watch and learn the secret!",
+    
+    "faq_title": "FAQ",
+    "faq_subtitle": "Here are the most common questions with our answers.",
+    "faq_questions": [
+      {
+        "q": "Is Bitcoin safe?",
+        "a": "If you look at bitcoin’s history it has lots of ups and downs. However, look more closely and you’ll notice that after every time it goes down it increases to a new high. This is because Bitcoin is constantly growing."
+      },
+      {
+        "q": "What’s in it for us?",
+        "a": "At Bitcoin Profit, we are all investors in Bitcoin. Therefore, we know that the more people that join us, the bigger Bitcoin will grow."
+      },
+      {
+        "q": "What’s the secret?",
+        "a": "The secret is that there is no secret. Join today and we’ll show you just how easy it is to get started trading Bitcoin."
+      },
+      {
+        "q": "Is it risky?",
+        "a": "The risk levels depend on how you trade. Join us today and we’ll show you how to maximise your profits and minimise your risk."
+      },
+      {
+        "q": "Why Join Bitcoin Profit?",
+        "a": "Bitcoin Profit enables you to easily trade your Bitcoin for real cash. We also have a state of the art platform which makes trading easier than ever before. Don’t believe us? Join today and see for yourself. Getting involved in the Bitcoin revolution has never been easier."
+      },
+      {
+        "q": "What’s the catch?",
+        "a": "No catch! You simply sign up, deposit an initial trading amount of $250 and we’ll do the rest. Our platform enables the easiest way to get started trading Bitcoin. No hassle, no fuss so that you can start earning instantly."
+      }
+    ],
+
+    "famous_title": "Famous names in trading",
+    "famous_subtitle": "Here are the most common questions with our answers.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "You can be free. You can live and work anywhere in the world. You can be independent from routine and not answer to anybody"
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Win or lose, everybody gets what they want out of the market. Some people seem to like to lose, so they win by losing money."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "What seems too high and risky to the majority generally goes higher and what seems low and cheap generally goes lower."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "You don't need to be a rocket scientist. Investing is not a game where the guy with the 160 IQ beats the guy with 130 IQ."
+      }
+    ],
+
+    "second_form_title": "Sign Up Below",
+    "second_form_subtitle": "and we’ll guide you through the process.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "IMPORTANT: ",
+      "Earnings and Legal Disclaimers",
+      "Earnings and income representations made by , (collectively “This Website” only used as aspirational examples of your earnings potential. The success of those in the testimonials and other examples are exceptional results and therefore are not intended as a guarantee that you or others will achieve the same results. Individual results will vary and are entirely dependent on your use of .",
+      "This Website is not responsible for your actions. You bear sole responsibility for your actions and decisions when using products and services and therefore you should always exercise caution and due diligence. You agree that this Website is not liable to you in any way for the results of using our products and services. See our Terms & Conditions for our full disclaimer of liability and other restrictions.",
+      "This Website may receive compensation for products and services they recommend to you. If you do not want This Website to be compensated for a recommendation, then we advise that you search online for a similar product through a non-affiliate link."
+    ],
+    "bottom_info": [
+      "We use cookies to understand how you use our site and to improve your experience. This includes personalizing content and advertising. By continuing to use our site, you accept our use of cookies, revised Privacy Policy and Terms of Use. This website is an Advertorial. ",
+      "More information",
+      "OK",
+      "Report Ad / Spam"
+    ]
+  },
+  "es": {
+    "modal_title": [
+      "¡Espere!",
+      "Antes de que se vaya..."
+    ],
+    "modal_subtitle": [
+      "Los mercados se están moviendo rápido. No se pierda la oportunidad de beneficiarse de las últimas subidas y bajadas.",
+      "Regístrese hoy y únase a las miles de personas que están cambiando sus vidas gracias a la compraventa de valores en línea."
+    ],
+    "header_title": "– Publirreportaje  –",
+    "title": "Benefíciate de los bitcoins mientras otros criptomercados están bloqueándose.",
+    "subtitle": [
+      "Únete hoy ",
+      " y comprueba cuánto",
+      "puedes ganar"
+    ],
+    "title_form": [
+      "REGÍSTRATE A CONTINUACIÓN",
+      "y te guiaremos a través del proceso."
+    ],
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "email": "Email",
+    "password": "Contraseña",
+    "phone_number": "Número de teléfono",
+
+    "button": "Comienza Ya",
+    "passtest": {
+      "invalidlength": "La contraseña tiene que contener entre 8 caracteres.",
+      "nospecial": "No puede contener caracteres especiales.",
+      "nolowercase": "Tiene que contener al menos una letra.",
+      "nonumber": "Tiene que contener al menos una letra mayúscula.",
+      "nouppercase": "Tiene que contener al menos un número."
+    },
+    "agreement_first": "Acepto que mi dirección de correo electrónico sea almacenada con el propósito de recibir información y ofertas comerciales sobre plataformas y software de compraventa.",
+    "agreement_second": [
+      "Estoy de acuerdo con Términos y condiciones y Política de privacidad",
+      "Términos y condiciones",
+      "Privacy Policy"
+    ],
+    "more_title": [
+      "Puedes cambiar de idea en cualquier momento haciendo clic en el enlace para darse...",
+      "más"
+    ],
+    "more_decription": "de baja en el pie de página de cualquier correo que recibas de nosotros. Seremos respetuosos con tu información. Haciendo clic arriba aceptas que podamos procesar tu información de acuerdo a estos términos.",
+
+    "video_placeholder": "¡Pulsa para ver y descubrir el secreto!",
+
+    "faq_title": "Preguntas más frecuentes",
+    "faq_subtitle": "Estas son las preguntas más comunes con nuestras respuestas.",
+    "faq_questions": [
+      {
+        "q": "¿El Bitcoin es seguro?",
+        "a": "Si nos fijamos en la historia del Bitcoin, tiene muchos altibajos. Sin embargo, observa más detenidamente y podrás ver que cada vez que baja, sube hasta un nuevo máximo. Esto es porque el Bitcoin está en constante crecimiento."
+      },
+      {
+        "q": "¿En qué nos beneficia?",
+        "a": "En Crypto Profit, todos somos inversores en Bitcoin. Por lo tanto, sabemos que cuantas más personas se unan a nosotros, más crecerá el Bitcoin."
+      },
+      {
+        "q": "¿Cuál es el secreto?",
+        "a": "El secreto es que no hay ningún secreto. Únete hoy y te mostraremos lo fácil que es comenzar a operar con Bitcoin."
+      },
+      {
+        "q": "¿Es arriesgado?",
+        "a": "TLos niveles de riesgo dependen de cómo negocias. Únete a nosotros hoy y te mostraremos cómo maximizar sus ganancias y minimizar tu riesgo."
+      },
+      {
+        "q": "¿Por qué unirse a Crypto Profit?",
+        "a": "Crypto Profit te permite intercambiar fácilmente tu Bitcoin por efectivo real. También tenemos una plataforma de vanguardia que hace que negociar sea más fácil que nunca. ¿No nos crees? Únete hoy y compruébalo tú mismo. Participar en la revolución del Bitcoin nunca ha sido tan fácil."
+      },
+      {
+        "q": "¿Cuál es el truco?",
+        "a": "¡No hay ningún truco! Simplemente regístrate, deposita una cantidad inicial de 250 € y nosotros haremos el resto. Nuestra plataforma permite la manera más fácil de comenzar a operar con Bitcoin. Sin molestias, sin alborotos, para que pueda empezar a operar con bitcoin al instante."
+      }
+    ],
+
+    "famous_title": "Inversores famosos",
+    "famous_subtitle": "Hay muchas personas importantes invirtiendo. Esto es lo que dicen algunos de los inversores más famosos.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Puedes ser libre. Puedes vivir y trabajar en cualquier parte del mundo. Puedes ser independiente de la rutina y no responder ante nadie."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Ganes o pierdas, todos obtienen lo que quieren del mercado. A algunas personas parece gustarles perder, así que ganan perdiendo dinero."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Lo que parece demasiado alto y arriesgado para la mayoría, generalmente llega más alto, y lo que parece bajo y barato generalmente llega más bajo."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "No necesitas ser un científico espacial. Invertir no es un juego en el que el tipo con el cociente intelectual de 160 gane al tipo con el cociente intelectual de 130."
+      }
+    ],
+
+    "second_form_title": "REGÍSTRATE A CONTINUACIÓN",
+    "second_form_subtitle": "y te guiaremos a través del proceso.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "IMPORTANTE: ",
+      "Ganancias y avisos legales",
+      "Las ganancias y las representaciones de ingresos de , , (en conjunto, «Este Sitio Web») sólo se utilizan como ejemplos a los que puede aspirar su potencial de ganancias. El éxito de los testigos y otros ejemplos son resultados excepcionales y, por lo tanto, no pretenden ser una garantía de que usted u otras personas obtengan los mismos resultados. Los resultados individuales variarán y dependerán en su totalidad del uso que usted haga de .",
+      "Este Sitio Web no se hace responsable de sus actos. Usted es el único responsable de sus actos y sus decisiones cuando utiliza productos y servicios. Por consiguiente, siempre debe actuar con la prudencia y la diligencia debidas. Usted acepta que Este Sitio Web no es responsable en modo alguno de los resultados del uso de nuestros productos y servicios. Consulte nuestros &quot;Términos y Condiciones&quot; sobre el descargo de responsabilidad íntegro y otras restricciones.",
+      "Este Sitio Web podrá recibir retribuciones por los productos y los servicios que le recomienden. Si no desea que Este Sitio Web reciba retribuciones por una recomendación, le aconsejamos que busque en Internet un producto similar a través de un enlace no afiliado."
+    ],
+    "bottom_info": [
+      "Utilizamos cookies para saber cómo utiliza nuestra web y mejorar su experiencia. Esto incluye publicidad y contenidos personalizados. Al continuar utilizando nuestra web, acepta el uso de cookies, la política de privacidad actualizada y las condiciones de uso. Este sitio web es un publirreportaje.",
+      "Más información",
+      "ENTENDIDO",
+      "Denunciar anuncio / spam"
+    ]
+  },
+  "it": {
+    "modal_title": [
+      "Aspetta!",
+      "Prima che tu te ne vada..."
+    ],
+    "modal_subtitle": [
+      "I mercati si muovono rapidamente. Non perdere l'opportunità di trarre profitto dagli ultimi rialzi e ribassi.",
+      "Registrati oggi e unisciti alle migliaia di persone che stanno cambiando la propria vita grazie al trading online."
+    ],
+    "header_title": "– Advertorial –",
+    "title": "Trai beneficio dal Bitcoin anche quando i mercati della criptovaluta sono in crisi.",
+    "subtitle": [
+      "Unisciti oggi",
+      " e vedi",
+      "quanto puoi fare"
+    ],
+    "title_form": [
+      "REGISTRATI QUI SOTTO",
+      "e ti guideremo in tutta la procedura."
+    ],
+    "first_name": "Nome",
+    "last_name": "Cognome",
+    "email": "Email",
+    "password": "Password",
+    "phone_number": "Telefono",
+
+    "button": "Inizia ora",
+    "passtest": {
+      "invalidlength": "La password contenere tra i 8 e caratteri.",
+      "nospecial": "Non deve contenere caratteri speciali.",
+      "nolowercase": "Deve contenere almeno 1 lettera.",
+      "nonumber": "Deve contenere almeno 1 lettera maiuscola.",
+      "nouppercase": "Deve contenere almeno 1 numero."
+    },
+    "agreement_first": "Accetto che il mio indirizzo e-mail venga memorizzato allo scopo di ricevere informazioni e offerte commerciali su software e piattaforme di trading.",
+    "agreement_second": [
+      "Accetto le Condizioni generali e l'Informativa sulla privacy",
+      "Condizioni generali",
+      "l'Informativa sulla privacy"
+    ],
+    "more_title": [
+      "Potrai cambiare idea in qualsiasi momento cliccando sul link di annullamento...",
+      "più"
+    ],
+    "more_decription": "dell'iscrizione presente nel piè di pagina di ogni e-mail che riceverai da noi. Tratteremo i tuoi dati con rispetto. Cliccando sopra, acconsenti al trattamento dei tuoi dati da parte nostra in conformità alle presenti condizioni.",
+
+    "video_placeholder": "Tocca per guardare e carpire il segreto!",
+
+    "faq_title": "Domande frequenti",
+    "faq_subtitle": "Ecco le risposte alle domande più comuni.",
+    "faq_questions": [
+      {
+        "q": "Il Bitcoin è sicuro?",
+        "a": "Se guardi la storia del Bitcoin, noterai che ha avuto molti alti e bassi. Tuttavia, guardando più da vicino, noterai che dopo ogni ribasso, il Bitcoin raggiunge sempre un nuovo massimo. Questo avviene perché il Bitcoin è in costante crescita."
+      },
+      {
+        "q": "Cosa ci guadagniamo noi?",
+        "a": "Noi di Crypto Profit siamo tutti investitori in Bitcoin, per cui sappiamo che più persone si uniranno a noi, più il Bitcoin crescerà."
+      },
+      {
+        "q": "Qual è il segreto?",
+        "a": "Il segreto è che non c'è nessun segreto. Registrati oggi stesso, e ti mostreremo quant'è facile iniziare a fare trading in Bitcoin."
+      },
+      {
+        "q": "È rischioso?",
+        "a": "I livelli di rischio dipendono dal modo in cui fai trading. Unisciti a noi oggi stesso, e ti mostreremo come potrai massimizzare i profitti e minimizzare il rischio."
+      },
+      {
+        "q": "Perché registrarsi su Crypto Profit?",
+        "a": "Crypto Profit ti consente di scambiare facilmente i tuoi Bitcoin con denaro reale. Disponiamo inoltre di una piattaforma all'avanguardia che rende il trading più facile che mai. Non ci credi? Registrati oggi stesso, e lo scoprirai di persona. Entrare nella rivoluzione dei Bitcoin non è mai stato così facile."
+      },
+      {
+        "q": "Qual è la fregatura?",
+        "a": "Non c'è nessuna fregatura! Devi semplicemente registrarti, depositare un importo iniziale di 250 € per fare trading, e noi faremo il resto. La nostra piattaforma ti offre il modo più semplice per iniziare a fare trading in Bitcoin. Nessun fastidio, nessuna confusione, in modo che tu possa iniziare subito a fare trading di bitcoin."
+      }
+    ],
+
+    "famous_title": "Nomi famosi nel trading",
+    "famous_subtitle": "Ci sono molti grandi nomi nel trading. Ecco cosa hanno da dire alcuni dei trader più famosi.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Puoi essere libero. Puoi vivere e lavorare in qualsiasi parte del mondo. Puoi essere indipendente dalla routine e non rispondere a nessuno."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Che si vinca o si perda, ognuno ottiene ciò che vuole dal mercato. Alcune persone sembrano voler perdere, quindi vincono perdendo denaro."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Ciò che sembra troppo rischioso per la maggioranza generalmente va più in alto, e ciò che sembra economico generalmente va più in basso."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Non è necessario essere uno scienziato missilistico. Investire non è un gioco in cui il tipo con un QI di 160 batte il tipo con un QUI di 130."
+      }
+    ],
+
+    "second_form_title": "Registrati qui sotto",
+    "second_form_subtitle": "e ti guideremo in tutta la procedura.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "IMPORTANTE : ",
+      "Profitti e Liberatoria Legale",
+      "Le descrizioni di entrate e profitti realizzati da , (nell'insieme identificati come \"Questo sito web\" devono essere intesi come mero esempio di potenziale ideale di guadagno. Il successo di coloro che hanno fornito testimonianza e altri esempi rappresentano risultati eccezionali e quindi non devono essere intesi come garanzia di analoghi risultati. I risultati individuali sono variabili e dipendono interamente dall'uso che viene fatto di .",
+      "Questo sito non può essere ritenuto responsabile per le azioni dei propri utenti. L'utente è il solo e unico responsabile delle proprie azioni e decisioni allorché utilizza prodotti e servizi del sito, pertanto devono sempre essere usate la dovuta cautela e diligenza. L'utente accetta che questo sito Web non è responsabile in alcun modo per i risultati derivanti dall'utilizzo dei prodotti e servizi messi a disposizione. Vedi i nostri Termini e Condizioni per consultare il testo integrale di limitazione di responsabilità e altre restrizioni.",
+      "Questo sito Web può ricevere compensi per proporre prodotti e i servizi ai propri utenti. Se non si desidera che questo sito Web riceva compensi per le proposte commerciali, consigliamo di cercare online dei prodotti analoghi servendosi di link non affiliati al sito."
+    ],
+    "bottom_info": [
+      "Utilizziamo i cookie per capire come usi il nostro sito e per migliorare la tua esperienza. Ciò include la personalizzazione di contenuti e pubblicità. Continuando ad utilizzare il nostro sito, accetti l'uso dei cookie da parte nostra, l'Informativa sulla Privacy aggiornata e i Termini di Utilizzo. Questo sito web è un Advertorial",
+      "Maggiori informazioni",
+      "OK",
+      "Segnala annuncio / spam"
+    ]
+  },
+  "de": {
+    "modal_title": [
+      "Moment noch!",
+      "Bevor Sie gehen ..."
+    ],
+    "modal_subtitle": [
+      "Die Märkte bewegen sich schnell. Verpassen Sie nicht Ihre Chance, vom Steigen und Fallen in jüngster Zeit zu profitieren.",
+      "Melden Sie sich heute an und werden Sie einer von Tausenden, die ihr Leben dank Onlinehandel verändern."
+    ],
+    "header_title": "– Advertorial –",
+    "title": "Benefit from bitcoin even when the crypto markets are crashing.",
+    "subtitle": [
+      "Join today",
+      " and see",
+      "how much you can make"
+    ],
+    "title_form": [
+      "SIGN UP BELOW",
+      "and we’ll guide you through the process."
+    ],
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "phone_number": "Telefon",
+
+    "button": "Beginnen Sie jetzt",
+    "passtest": {
+      "invalidlength": "Das Passwort muss 8 Zeichen lang.",
+      "nospecial": "Es dürfen keine Sonderzeichen enthalten sein.",
+      "nolowercase": "Es muss mindestens ein Buchstabe enthalten sein.",
+      "nonumber": "Es muss mindestens einen Großbuchstaben enthalten.",
+      "nouppercase": "Es muss mindestens eine Ziffer enthalten sein."
+    },
+    "agreement_first": "Ich bin damit einverstanden, dass meine E-Mail-Adresse gespeichert wird, damit ich Informationen und kommerzielle Angebote über Handelssoftware und -plattformen erhalte.",
+    "agreement_second": [
+      "Mit den allgemeinen Geschäftsbedingungen und der Datenschutzerklärung erkläre ich mich einverstanden",
+      "allgemeinen Geschäftsbedingungen",
+      "Datenschutzerklärung"
+    ],
+    "more_title": [
+      "Ihre Meinung können Sie jederzeit ändern, indem Sie auf den Abmeldelink in der...",
+      "mehr"
+    ],
+    "more_decription": "Fußzeile jeder von uns erhaltenen E-Mail klicken. Wir werden mit Ihren Daten sorgsam umgehen. Wenn Sie oben klicken, dürfen wir Ihre Daten gemäß diesen Bedingungen verarbeiten.",
+
+    "video_placeholder": "Tippe, um es anzusehen und das Geheimnis zu lüften!",
+
+    "faq_title": "Häufig gestellte Fragen",
+    "faq_subtitle": "Hier sind die am häufigsten gestellten Fragen und unsere Antworten darauf.",
+    "faq_questions": [
+      {
+        "q": "Was ist für uns drin?",
+        "a": "Wenn man sich die Geschichte von Bitcoin ansieht, gab es viele Höhen und Tiefen. Aber bei genauerer Betrachtung, erkennt man, dass er nach jedem Abstieg auf ein neues Hoch angestiegen ist. Dies liegt daran, dass Bitcoin ständig wächst."
+      },
+      {
+        "q": "Was ist für uns drin?",
+        "a": "Bei Crypto Profit sind wir alle Investoren in Bitcoins. Daher wissen wir, dass je mehr Menschen sich uns anschließen, desto stärker wird der Bitcoin wachsen."
+      },
+      {
+        "q": "Was ist das Geheimnis?",
+        "a": "Das Geheimnis ist, dass es kein Geheimnis gibt. Melden Sie sich heute an und wir zeigen Ihnen, wie einfach es ist, mit Bitcoins zu handeln."
+      },
+      {
+        "q": "Ist es riskant?",
+        "a": "Die Risikostufen hängen davon ab, wie Sie handeln. Besuchen Sie uns heute und wir zeigen Ihnen, wie Sie Ihre Gewinne maximieren und Ihr Risiko minimieren können."
+      },
+      {
+        "q": "Warum sollte man Crypto Profit beitreten?",
+        "a": "Mit Crypto Profit können Sie Ihre Bitcoins problemlos gegen echtes Geld eintauschen. Außerdem bieten wir eine Plattform mit der neusten Technik, die den Handel einfacher macht als je zuvor. Glauben Sie uns nicht? Melden Sie sich heute an und überzeugen Sie sich selbst. Sich an der Bitcoin-Revolution zu beteiligen, war noch nie einfacher."
+      },
+      {
+        "q": "Was ist der Haken?",
+        "a": "Keine Haken! Sie melden sich einfach an, hinterlegen einen anfänglichen Handelsbetrag von 250 € und wir erledigen den Rest. Unsere Plattform ermöglicht den einfachsten Einstieg in den Handel mit Bitcoins. Keine Umstände und kein Ärger, so dass Sie sofort mit dem Handel mit Bitcoin beginnen können."
+      }
+    ],
+
+    "famous_title": "Berühmte Namen im Handel",
+    "famous_subtitle": "Es gibt viele große Namen im Handel. Hier sind ein paar der Dinge, die die berühmtesten Händler sagen.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Sie können frei sein. Sie können überall auf der Welt leben und arbeiten. Sie können unabhängig vom Trott leben und niemandem untergeben sein."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Gewinn oder Verlust, jeder bekommt das, was er aus dem Markt ziehen möchte. Manche Leute scheinen gern zu verlieren, also gewinnen sie, indem sie Geld verlieren."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Was der Mehrheit zu hoch und riskant erscheint, steigt normalerweise, und was niedrig und billig erscheint, fällt normalerweise."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Sie müssen kein Genie sein. Investieren ist kein Spiel, bei dem der Typ mit dem IQ von 160 den Typen mit dem IQ von 130 schlägt."
+      }
+    ],
+
+    "second_form_title": "Registrieren Sie sich unten",
+    "second_form_subtitle": "und wir werden Sie durch den Prozess führen.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "WICHTIG: ",
+      "Einnahmen und Haftungsausschlüsse",
+      "Darstellungen von Verdiensten und Einkommen auf , (zusammen: „Diese Webseite“) werden nur als erstrebenswerte Beispiele für Ihre potentiellen Einnahmen verwendet. Der Erfolg der Personen in den Erfahrungsberichten und anderen Beispielen sind außergewöhnliche Ergebnisse und daher nicht als Garantie dafür gedacht, dass Sie oder andere dieselben Ergebnisse erzielen werden. Individuelle Ergebnisse werden sich unterscheiden und sind gänzlich von Ihrer Verwendung von abhängig.",
+      "Diese Webseite ist nicht für Ihre Handlungen verantwortlich. Sie tragen die alleinige Verantwortung für Ihre Handlungen und Entscheidungen, wenn Sie Produkte und Dienstleistungen nutzen, und sollten daher immer Vorsicht und gebührende Sorgfalt walten lassen. Sie stimmen zu, dass diese Webseite in keinster Weise Ihnen gegenüber für die Ergebnisse der Verwendung unserer Produkte und Dienstleistungen haftbar ist. Unseren vollständigen Haftungsausschluss und andere Einschränkungen finden Sie in unseren Geschäftsbedingungen.",
+      "Diese Webseite darf Vergütung für die Ihnen empfohlenen Produkte und Dienstleistungen erhalten. Wenn Sie nicht möchten, dass Diese Webseite für eine Empfehlung vergütet wird, empfehlen wir Ihnen, online nach einem ähnlichen Produkt über einen Nicht-Affiliate-Link zu suchen."
+    ],
+    "bottom_info": [
+      "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website benutzen, und um Ihr Erlebnis zu verbessern. Dies schließt personalisierte Inhalte und Werbung ein. Indem Sie unsere Website weiterverwenden, stimmen Sie unserer Cookie-Nutzung, unserer überarbeiteten Datenschutzrichtlinie und unseren Nutzungsbedingungen zu. Diese Website ist ein Advertorial. ",
+      "Weitere Informationen",
+      "OK",
+      "Anzeige / Spam melden"
+    ]
+  },
+  "no": {
+    "modal_title": [
+      "Vent!",
+      "Før du går…"
+    ],
+    "modal_subtitle": [
+      "Markedene er i rask bevegelse. Ikke gå glipp av sjansen din til å profittere på de siste opp- og nedgangene.",
+      "Registrer deg i dag, og bli med tusenvis av mennesker som får livene sine endret takket være trading på nett."
+    ],
+    "header_title": "– Advertentie  –",
+    "title": "Dra nytte av Bitcoin til og med når krypto-markedene kræsjer.",
+    "subtitle": [
+      "Registrer deg i dag",
+      " og se hvor",
+      "mye du kan tjene"
+    ],
+    "title_form": [
+      "REGISTRER DEG NEDENFOR",
+      "og vi vil guide deg gjennom prosessen."
+    ],
+    "first_name": "Fornavn",
+    "last_name": "Etternavn",
+    "email": "Din e-mail",
+    "password": "Passord",
+    "phone_number": "Telefonnummer",
+
+    "button": "Kom i gang nå",
+    "passtest": {
+      "invalidlength": "Passordet må bestå av 8 tegn.",
+      "nospecial": "Må ikke omfatte spesialtegn.",
+      "nolowercase": "Må omfatte minst 1 bokstav.",
+      "nonumber": "Må omfatte minst 1 stor bokstav.",
+      "nouppercase": "Må omfatte minst 1 tall."
+    },
+    "agreement_first": "Jeg godtar at epostadressen min lagres slik at jeg kan motta informasjon og tilbud om programvare og plattformer for trading.",
+    "agreement_second": [
+      "Jeg godtar og Retningslinjer for personvern",
+      "Vilkår og betingelser",
+      "Retningslinjer for personvern"
+    ],
+    "more_title": [
+      "Du kan når som helst endre dette ved å klikke på linken for å avslutte abonnementet...",
+      "mer"
+    ],
+    "more_decription": "som du finner til slutt i alle eposter du mottar fra oss. Vi vil behandle personopplysningene dine med respekt. Ved å klikke ovenfor godtar du at vi kan behandle personopplysninger om deg i samsvar med disse betingelsene.",
+
+    "video_placeholder": "Trykk for å se og lære hemmeligheten!",
+
+    "faq_title": "FAQ",
+    "faq_subtitle": "Her er de vanligste spørsmålene med svarene våre.",
+    "faq_questions": [
+      {
+        "q": "Er Bitcoin trygt?",
+        "a": "Dersom du ser på historien til Bitcoin, er det en berg- og dalbane. Men om du ser nærmere, vil du oppdage at etter hvert fall har den økt til en ny topp. Dette er fordi Bitcoin vokser kontinuerlig."
+      },
+      {
+        "q": "Hva får vi igjen for det?",
+        "a": "Hos Crypto Profit invisterer vi alle i Bitcoin. Derfor vet vi at jo flere mennesker som blir med oss, desto mer vil Bitcoin vokse."
+      },
+      {
+        "q": "Hva er hemmeligheten?",
+        "a": "Hemmeligheten er at det er ingen hemmelighet. Bli med i dag, og vi vil vise deg hvor enkelt det er å komme i gang med Bitcoin-trading."
+      },
+      {
+        "q": "Er det risikabelt?",
+        "a": "Risikonivået avhenger av hvordan du handler. Bli med oss i dag, og vi vil vise deg hvordan du maksimerer profitten din og minimerer risikoen."
+      },
+      {
+        "q": "Hvorfor bli med Crypto Profit?",
+        "a": "Crypto Profit lar deg enkelt bytte inn dine Bitcoin i ekte penger. Vi har også en toppmoderne plattform som gjør trading enklere enn noensinne. Tror du oss ikke? Bli med oss i dag og se selv. Å involvere seg i Bitcoin-revolusjonen har aldri vært enklere.\n"
+      },
+      {
+        "q": "Hva er haken?",
+        "a": "Ingen hake! Du bare registrerer deg, gjør et første handelsinnskudd på $250, og vi gjør resten. Plattformen vår sørger for den enkleste måten å komme i gang med Bitcoin-trading på. Ingen problemer, ingen mas, bare sånn at du kan begynne å handle Bitxoin med en gang."
+      }
+    ],
+
+    "famous_title": "Berømtheter innen trading",
+    "famous_subtitle": "Det er mange store navn innen trading. Dette er hva noen av de mest berømte traderne sier.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Du kan være fri. Du kan bo og jobbe hvor som helst i verden. Du kan være uavhengig av rutiner og slippe å stå til ansvar ovenfor noen."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Vinn eller tap. Alle får ut av markedet det de ønsker. Noen ser ut til å like å tape, så de vinner ved å tape penger."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Det som ser ut til å være for høyt og risikabelt for flertallet, går enda høyere. Og det som ser lavt og billig ut, vil generelt sett gå enda lavere."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Du trenger ikke å være en kjernefysiker. Investering er ikke et spill hvor han som har 160 i IQ slår han som har 130 i IQ."
+      }
+    ],
+
+    "second_form_title": "Registrer deg nedenfor",
+    "second_form_subtitle": "og vi vil guide deg gjennom prosessen.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "VIKTIG: ",
+      "Inntjening og juridiske forbehold",
+      "Inntjening og inntektseksempler gjort av , (heretter kalt “Dette nettstedet”) er kun ment som eksempler på inntektspotensialet ditt. Suksessen til talspersonene og andre eksempler er eksepsjonelle resultater, og derfor ikke ment som noen garanti om at du eller andre vil oppnå de samme resultatene. Individuelle resultater varierer, og er fullt ut avhengig av din bruk av .",
+      "Dette nettstedet er ikke ansvarlig for dine handlinger. Du innehar fullt ansvar for dine handlinger og avgjørelser når du bruker produkter og tjenester, og derfor bør du alltid utvise forsiktighet og gjøre nødvendige undersøkelser. Du samtykker til at Dette nettstedet ikke på noen måte er ansvarlig for resultatene fra bruk av våre produkter og tjenester. Se våre betingelser for en komplett ansvarsfraskrivelse og andre begrensninger.",
+      "Dette nettstedet kan motta kompensasjon for produkter og tjenester som anbefales til deg. Om du ikke ønsker at Dette nettstedet skal kompenseres for en anbefaling, ber vi deg om at du søker på internett etter liknende produkter via en ikke-samarbeidende lenke."
+    ],
+    "bottom_info": [
+      "Vi bruker informasjonskapsler for å forstå hvordan du bruker nettstedet vårt og for å forbedre opplevelsen din. Dette inkluderer tilpassing av innhold og annonsering. Ved å fortsette å bruke nettstedet vårt, godtar du bruken av informasjonskapsler, revidert personvernpolicy og bruksvilkår. Dette nettstedet er en redaksjonell annonse.",
+      "Mer informasjon",
+      "OK",
+      "Rapporter annonse / spam"
+    ]
+  },
+  "fi": {
+    "modal_title": [
+      "Odota!",
+      "Ennen kuin lähdet..."
+    ],
+    "modal_subtitle": [
+      "Markkinat muuttuvat nopeasti. Älä ohita tilaisuuttasi hyötyä viimeisimmistä nousuista ja laskuista.",
+      "Rekisteröidy tänään ja liity tuhansien muiden joukkoon, jotka muuttavat elämiään verkkokaupankäynnin ansiosta."
+    ],
+    "header_title": "– Advertorial –",
+    "title": "Hyödy bitcoineista jopa silloin, kun kryptomarkkinat ovat laskussa.",
+    "subtitle": [
+      "Liity tänään",
+      " ja katso kuinka ",
+      "paljon voit ansaita"
+    ],
+    "title_form": [
+      "REKISTERÖIDY ALLA",
+      "niin ohjaamme sinut prosessin läpi."
+    ],
+    "first_name": "Etunimi",
+    "last_name": "Sukunimi",
+    "email": "Email",
+    "password": "Salasana",
+    "phone_number": "Puhelinnumero",
+
+    "button": "Hanki käyttöoikeus nyt",
+    "passtest": {
+      "invalidlength": "Salasanan tulee olla 8 merkkiä pitkä.",
+      "nospecial": "Ei saa sisältää erikoismerkkejä.",
+      "nolowercase": "Täytyy sisältää vähintään 1 kirjain.",
+      "nonumber": "Täytyy sisältää vähintään 1 iso kirjain.",
+      "nouppercase": "Täytyy sisältää vähintään 1 numero."
+    },
+    "agreement_first": "I agree to the processing of my email address for the purposes of receiving commercial offers that we believe will be of interest to you on behalf of the companies and industries explicitly detailed in our Privacy Policy",
+    "agreement_second": [
+      "By filling out and sending us the registration form you agree with the Terms & Conditions and the Privacy Policy",
+      "Terms & Conditions",
+      "Privacy Policy"
+    ],
+    "more_title": [
+      "Voit muuttaa asetusta milloin tahansa klikkaamalla sinulle lähettämämme...",
+      "lisää"
+    ],
+    "more_decription": "sähköpostin alatunnisteesta löytyvää linkkiä, josta tilauksen voi perua. Tietojasi käsitellään luottamuksellisesti. Klikkaamalla yltä hyväksyt, että voimme käsitellä tietojasi seuraavien ehtojen mukaisesti.",
+
+    "video_placeholder": "Katso napauttamalla ja saat tietää salaisuuden!",
+
+    "faq_title": "UKK",
+    "faq_subtitle": "Täältä löydät yleisimmät kysymykset vastauksineen.",
+    "faq_questions": [
+      {
+        "q": "Onko bitcoinien käyttö turvallista?",
+        "a": "Bitcoinin historiassa on ollut paljon sekä ylä- että alamäkiä. Sen kurssia tarkemmin tarkastellessa on kuitenkin helppo huomata, että jokaista arvon alenemista seuraa huikea nousu. Tämä johtuu siitä, että bitcoin kasvaa jatkuvasti."
+      },
+      {
+        "q": "Mitä me hyödymme tästä?",
+        "a": "Me Crypto Profitin työntekijät olemme bitcoin-sijoittajia. Tämän vuoksi bitcoin kasvaa sitä suuremmaksi, mitä enemmän ihmisiä saamme liittymään mukaan."
+      },
+      {
+        "q": "Mikä on alalla menestymisen salaisuus?",
+        "a": "Salaisuus on se, että mitään salaisuutta ei ole. Liity mukaan jo tänään, jotta voimme näyttää, kuinka helppoa kaupankäynti bitcoineilla oikein onkaan."
+      },
+      {
+        "q": "Onko tämä riskialtista?",
+        "a": "Riskitaso riippuu paljolti omasta kaupankäyntitavastasi. Liity mukaan jo tänään, niin autamme sinua maksimoimaan tulosi ja minimoimaan riskit."
+      },
+      {
+        "q": "Miksi liittyisin Crypto Profitiin?",
+        "a": "Crypto Profitin avulla voit vaivatta vaihtaa bitcoinisi oikeaksi rahaksi. Meillä on lisäksi käytössämme viimeisintä huutoa oleva alusta, joka tekee kaupankäynnistä ennennäkemättömän helppoa. Tuntuuko vaikealta uskoa? Silloin sinun kannattaa liittyä mukaan jo tänään jo todistaa asia omin silmin. Bitcoin-vallankumoukseen liittyminen ei ole koskaan ollut näin helppoa."
+      },
+      {
+        "q": "Mikä juoni tässä oikein on takana?",
+        "a": "Ei niin mikään! Sinun tarvitsee vain rekisteröityä ja tehdä 250 € alkutalletus, jonka jälkeen me huolehdimme kaikesta muusta. Alustamme tarjoaa helpoimman mahdollisen tavan bitcoinien vaihtamiseen. Ei sählinkiä, joten voit aloittaa bitcoinien käytön välittömästi."
+      }
+    ],
+
+    "famous_title": "Kuuluisia kaupankäynnin nimiä",
+    "famous_subtitle": "Kaupankäyntiin liittyy paljon suuria nimiä. Näin kertovat jotkut kuuluisimmista kaupankävijöistämme.\n",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Saat olla vapaa. Voit asua ja käydä kauppaa missä päin maailmaa tahansa. Olet vapaa rutiineista etkä joudu vastaamaan kenellekään."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Voitto tai häviö, kaikki saavat markkinoilta haluamansa. Jotkut ihmiset tuntuvat pitävän häviämisestä, joten he voittavat häviämällä rahaa."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Se, mikä tuntuu enemmistön mielestä liian korkealta ja riskialttiilta, nousee yleensä korkeammalle, kun taas liian alhaiselta ja halvalta tuntuva yleensä laskee."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Tässä ei vaadita avaruustiedettä. Sijoittaminen ei ole peliä, jossa kaveri 160 ÄO:lla voittaa sen, jonka ÄO on 130."
+      }
+    ],
+
+    "second_form_title": "Rekisteröidy alla",
+    "second_form_subtitle": "niin ohjaamme sinut prosessin läpi.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "TÄRKEÄÄ: ",
+      "Ansiot ja vastuuvapauslausekkeet",
+      "Ansioiden ja , (jäljempänä ”tämä verkkosivusto”) esittämiä kuvauksia ansioista ja tuloista käytetään ainoastaan rohkaisevina esimerkkeinä ansiomahdollisuuksistasi. Kokemuksissa kerrottu sekä muiden esimerkkien menestys edustaa poikkeuksellista tulosta, eikä niitä näin ollen ole tarkoitettu takeeksi siitä, että sinä tai jotkut muut voisitte saavuttaa samanlaisia tuloksia. Yksittäiset tulokset vaihtelevat ja riippuvat täysin siitä, miten käytät kohdetta .",
+      "Tämä verkkosivusto ei ole vastuussa sinun teoistasi. Olet yksin vastuussa teoistasi ja päätöksistäsi käyttäessäsi tuotteita ja palveluita, ja siksi sinun tulisi aina toimia varovaisesti ja asianmukaista huolellisuutta noudattaen. Suostut siihen, ettei tämä verkkosivusto ole sinulle millään tavoin vastuussa tuotteidemme ja palveluidemme käytön tuloksista. Näet käyttöehdoistamme täyden vastuuvapauslausekkeen ja muita rajoituksia.",
+      "Tämä verkkosivusto saattaa saada korvauksen sinulle suosittelemistaan tuotteista ja palveluista. Mikäli et halua tämän verkkosivuston saavan korvausta suosituksistaan, neuvomme sinua etsimään verkosta vastaavaa tuotetta meihin liittymättömän linkin välityksellä."
+    ],
+    "bottom_info": [
+      "Käytämme evästeitä ymmärtääksemme miten käytät sivustoamme ja parantaaksemme kokemustasi. Tähän kuuluu sisällön ja mainonnan personointi. Jatkamalla sivuston käyttöä hyväksyt evästeet, tarkistetun tietosuojakäytännön ja käyttöehdot. Tämä sivusto on advertoriaali.",
+      "Lisää tietoa",
+      "OK",
+      "Ilmoita mainos / roskapostista"
+    ]
+  },
+  "sv": {
+    "modal_title": [
+      "Vänta!",
+      "Innan du går..."
+    ],
+    "modal_subtitle": [
+      "Marknaderna rör sig snabbt. Missa inte möjligheten att göra vinst på de senaste upp- och nedgångarna.",
+      "Registrera dig idag och bli en av de tusentals personer som förändrat sina liv tack vare onlinetrading."
+    ],
+    "header_title": "– Advertorial –",
+    "title": "Ta del av vinster från Bitcoin även när kryptomarknaden kraschar.",
+    "subtitle": [
+      "Gå med idag",
+      " och se hur",
+      "mycket du kan tjäna"
+    ],
+    "title_form": [
+      "REGISTRERA DIG NEDAN",
+      "och vi guidar dig genom processen."
+    ],
+    "first_name": "Förnamn",
+    "last_name": "Efternamn",
+    "email": "E-postadres",
+    "password": "Lösenord",
+    "phone_number": "Telefonnummer",
+
+    "button": "Få tillgång nu",
+    "passtest": {
+      "invalidlength": "Lösenordet måste vara 8 tecken långt.",
+      "nospecial": "Det får inte innehålla specialtecken.",
+      "nolowercase": "Det måste innehålla minst en bokstav.",
+      "nonumber": "Det måste innehålla minst en stor bokstav.",
+      "nouppercase": "Det måste innehålla minst en siffra."
+    },
+    "agreement_first": "Jag godkänner att min e-postadress sparas i syfte att motta information och kommersiella erbjudanden angående programvara och plattformer för handel.",
+    "agreement_second": [
+      "Jag godkänner Användarvillkoren och Sekretesspolicyn",
+      "Användarvillkoren ",
+      "Sekretesspolicyn"
+    ],
+    "more_title": [
+      "Du kan när som helst ändra ditt beslut genom att klicka på länken för...",
+      "mer"
+    ],
+    "more_decription": "att avsluta prenumeration i sidfoten i något av våra mejl. Vi kommer behandla din information med respekt. Genom att klicka ovan godkänner du att vi kan använda din information i enlighet med dessa bestämmelser.",
+
+    "video_placeholder": "Tryck för att kolla och få reda på hemligheten!",
+
+    "faq_title": "Vanliga frågor och svar",
+    "faq_subtitle": "Här är de vanligaste frågorna tillsammans med våra svar.",
+    "faq_questions": [
+      {
+        "q": "Är bitcoin säkert?",
+        "a": "Om du ser på bitcoins historiska kurs har den haft många upp- och nedgångar. Men om du tittar lite noggrannare kommer du att märka att varje gång den går ner ökar den igen till en ny högsta nivå. Detta är för att bitcoin ökar konstant."
+      },
+      {
+        "q": "Vad tjänar vi på det?",
+        "a": "Här på Crypto Profit är vi alla bitcoin-investerare. Därför vet vi att ju fler som går med oss, desto mer kommer bitcoin att öka."
+      },
+      {
+        "q": "Vad är hemligheten?",
+        "a": "Hemligheten är att det inte finns någon hemlighet. Gå med oss i dag och vi kommer att visa dig hur enkelt det faktiskt är att börja handla med bitcoin."
+      },
+      {
+        "q": "Är det riskabelt?",
+        "a": "Risknivån beror på hur du handlar. Gå med oss i dag och vi kommer att visa dig hur du maximerar dina vinster och minskar riskerna."
+      },
+      {
+        "q": "Varför gå med i Crypto Profit?",
+        "a": "Crypto Profit möjliggör för dig att enklare omsätta dina bitcoins till riktiga kontanter. Vi har också en toppmodern plattform som gör handel enklare än någonsin förut. Tror du inte oss? Gå med i dag och se för dig själv. Att gå med i bitcoin-revolutionen har aldrig varit enklare."
+      },
+      {
+        "q": "Vad är haken?",
+        "a": "Det finns ingen hake! Du registrerar dig helt enkelt, gör en första insättning på 250 dollar att handla med och vi sköter resten. Vår plattform tillåter dig på det enklaste sättet att börja handla med bitcoin. Inget krångel, inget tjafs så att du kan börja göra affärer med bitcoin direkt."
+      }
+    ],
+
+    "famous_title": "Kända namn inom handeln",
+    "famous_subtitle": "Det finns många stora namn inom handeln. Det här säger de mest kända inom handeln.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Du har din frihet Du kan bo och jobba var som helst i världen. Du är oberoende av rutiner och rapporterar inte till någon."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Vinst eller förlust, alla får vad de vill ha från marknaden. Vissa personer tenderar att förlora, så de vinner genom att förlora pengar."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "Det som verkar för högt och riskabelt för de flesta går ofta högre och det som står lågt och billigt går ofta lägre."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Du behöver inte vara en raketforskare. Investering är inte ett spel där killen med 160 i IQ slår killen med 130 i IQ."
+      }
+    ],
+
+    "second_form_title": "Registrera dig nedan",
+    "second_form_subtitle": "och vi guidar dig genom processen.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "VIKTIGT: ",
+      "Intäkts- och juridisk friskrivningsklausul",
+      "Intäkter och inkomster skildrade av , (samlat benämnt \"den här webbplatsen\") används bara som ambitiösa exempel på din intäktspotential. De framgångsberättelser och andra exempel som skildras är exceptionella resultat och därmed inte menade som någon garanti för att du eller någon annan kommer att uppnå samma resultat. Individuella resultat varierar och beror uteslutande på din användning av .",
+      "Den här webbplatsen är inte ansvarig för dina handlingar. Du bär ensam ansvaret för dina handlingar och beslut när du använder produkter och tjänster och du bör därför alltid vara försiktig och agera med tillbörlig aktsamhet. Du godkänner att den här webbplatsen inte på något sätt kan hållas ansvarig gentemot dig för resultatet av användandet av våra produkter och tjänster. Se våra användarvillkor för att läsa vår fullständiga ansvarsfriskrivning och andra restriktioner.",
+      "Den här webbplatsen kan få ersättning för de produkter och tjänster som de rekommenderar till dig. Om du inte vill att den här webbplatsen ska ersättas för en rekommendation råder vi dig att söka på nätet efter en liknande produkt via en länk som saknar sådan anknytning."
+    ],
+    "bottom_info": [
+      "Vi använder cookies för att förstå hur du använder vår webbplats och för att förbättra din upplevelse. Detta innefattar att personanpassa innehåll och reklam. Genom att fortsätta använda vår webbplats, godkänner du vår användning av cookies, vår reviderade integritetspolicy och våra användarvillkor. Den här webbplatsen är en annonsartikel.",
+      "Mer information",
+      "OK",
+      "Rapportera annons / skräppost"
+    ]
+  },
+  "pl": {
+    "modal_title": [
+      "Poczekaj!",
+      "Zanim opuścisz stronę..."
+    ],
+    "modal_subtitle": [
+      "Ruch na rynkach jest dynamiczny. Nie przegap szansy, aby zyskać na ostatnich wzrostach i spadkach.",
+      "Zarejestruj się dzisiaj i dołącz do tysięcy ludzi zmieniających swoje życie dzięki handlowi na giełdzie w sieci.\n\n"
+    ],
+    "header_title": "– Sponsorowany  –",
+    "title": "Korzystaj z bitcoin nawet w przypadku awarii rynków kryptowalut.",
+    "subtitle": [
+      "Dołącz już dziś",
+      " i zobacz,",
+      "jak wiele możesz zarobić"
+    ],
+    "title_form": [
+      "ZAREJESTRUJ SIĘ PONIŻEJ",
+      "– przeprowadzimy Cię przez procedurę rejestracji."
+    ],
+    "first_name": "Imię",
+    "last_name": "Nazwisko",
+    "email": "Twój adres e-mail",
+    "password": "Hasło",
+    "phone_number": "Numer telefonu",
+
+    "button": "Rozpocznij teraz",
+    "passtest": {
+      "invalidlength": "Hasło musi składać się z 8 znaków.",
+      "nospecial": "Nie może zawierać znaków specjalnych.",
+      "nolowercase": "Musi zawierać co najmniej 1 literę.",
+      "nonumber": "Musi zawierać co najmniej 1 wielką literę.",
+      "nouppercase": "Musi zawierać co najmniej 1 cyfrę."
+    },
+    "agreement_first": "Wyrażam zgodę na przechowywanie mojego adresu e-mail do celów przyszłego przekazywania informacji oraz ofert handlowych dotyczących oprogramowania handlowego oraz platform handlowych.",
+    "agreement_second": [
+      "Akceptuję warunki oraz politykę prywatności",
+      "warunki",
+      "politykę prywatności"
+    ],
+    "more_title": [
+      "Jeśli zmienisz zdanie, możesz w dowolnym momencie kliknąć link...",
+      "więcej"
+    ],
+    "more_decription": "„Wypisz się” znajdujący się w stopce każdej otrzymane od nas wiadomości e-mail. Wszystkie Twoje dane osobowe będziemy traktować z zachowaniem poufności. Klikając powyżej, wyrażasz zgodę na możliwość przetwarzania przez nas Twoich danych osobowych zgodnie z obowiązującymi warunkami.",
+
+    "video_placeholder": "Dotknij, aby zobaczyć i poznać sekret!",
+
+    "faq_title": "FAQ",
+    "faq_subtitle": "Oto najczęstsze pytania wraz z naszymi odpowiedziami.",
+    "faq_questions": [
+      {
+        "q": "Czy bitcoin jest bezpieczny?",
+        "a": "Jeśli spojrzysz na historię bitcoina, zauważysz duże wahania. Jeśli jednak przyjrzysz się bliżej, zauważysz, że zawsze po spadku następuje rekordowy wzrost. To dlatego, że bitcoin ciągle rośnie."
+      },
+      {
+        "q": "Co nam to daje?",
+        "a": "W Crypto Profit wszyscy inwestujemy w bitcoina. Dlatego wiemy, że im więcej ludzi do nas dołączy, tym bardziej bitcoin urośnie."
+      },
+      {
+        "q": "W czym tkwi sekret?",
+        "a": "Sekretem jest to, że nie ma sekretu. Dołącz już dziś, a my pokażemy Ci, jak łatwo rozpocząć handel bitcoinem."
+      },
+      {
+        "q": "Czy to ryzykowne?",
+        "a": "Poziom ryzyka zależy od sposobu handlowania. Dołącz do nas już dziś, a my pokażemy Ci, jak zmaksymalizować zyski i zminimalizować ryzyko."
+      },
+      {
+        "q": "Dlaczego warto dołączyć do Crypto Profit?",
+        "a": "Crypto Profit umożliwia łatwy handel bitcoinem z użyciem prawdziwej gotówki. Mamy też najnowocześniejszą platformę, dzięki której handel jest łatwiejszy niż kiedykolwiek wcześniej. Nie wierzysz nam? Dołącz już dziś i przekonaj się. Dołączenie do bitcoinowej rewolucji nigdy nie było łatwiejsze."
+      },
+      {
+        "q": "Gdzie jest haczyk?",
+        "a": "Nie ma haczyków! Wystarczy się zarejestrować, wpłacić początkową kwotę w wysokości 250 €, a my zajmiemy się resztą. Nasza platforma to najłatwiejszy sposób, aby rozpocząć handel bitcoinem. Bez kłopotów, bez problemów, więc natychmiast możesz zacząć handlować bitcoinami."
+      }
+    ],
+
+    "famous_title": "Znane nazwiska w handlu",
+    "famous_subtitle": "Jest wiele znanych nazwisk w handlu. Oto, co niektóre z najbardziej znanych osób mają do powiedzenia.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Możesz być wolny. Możesz żyć i pracować gdziekolwiek na świecie. Możesz być niezależny od rutyny i nie być zależnym od nikogo."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Zwycięstwo lub porażka, każdy otrzymuje od rynku to, czego chce. Niektórzy ludzie po prostu lubią przegrywać, więc wygrywają przez przegrywanie pieniędzy."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "To co wygląda na zbyt ambitne i ryzykowne dla większości, najczęściej się opłaca, a to co wygląda na kiepskie i tanie przeważnie tylko traci."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Nie musisz być geniuszem. Inwestowanie nie jest grą, w której gość ze 160 IQ pokonuje kogoś z 130 IQ."
+      }
+    ],
+
+    "second_form_title": "Zarejestruj się poniżej",
+    "second_form_subtitle": "– przeprowadzimy Cię przez procedurę rejestracji.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "WAŻNE: ",
+      "Zastrzeżenia dotyczące zarobków i kwestii prawnych",
+      "Zarobki i dochody przedstawione przez , (łącznie określane jako „Niniejsza strona internetowa”) stanowią jedynie przykład możliwości potencjalnego zarobku. Sukcesy osiągnięte przez osoby, których opinie zaprezentowano, a także inne przykłady, są wyjątkowe i jako takie nie stanowią gwarancji, że inni użytkownicy osiągną takie same wyniki. Indywidualne wyniki mogą się różnić i są całkowicie zależne od korzystania przez użytkownika z .",
+      "Niniejsza strona internetowa nie ponosi odpowiedzialności za działania użytkowników. Wyłączną odpowiedzialność za swoje działania i decyzje związane z korzystaniem z produktów i usług ponosi użytkownik, dlatego należy zawsze zachować ostrożność i należytą staranność. Użytkownik akceptuje fakt, że Niniejsza strona internetowa w żaden sposób nie odpowiada za skutki korzystania przez użytkownika z jej produktów i usług. Pełny zakres wyłączenia odpowiedzialności i inne zastrzeżenia można znaleźć w Regulaminie.",
+      "Niniejsza strona internetowa może otrzymywać prowizję za polecanie produktów i usług użytkownikom. Jeśli użytkownik nie wyraża zgody na otrzymywanie przez Niniejszą stronę internetową prowizji za polecenia, sugerujemy wyszukanie w internecie podobnego produktu za pośrednictwem niepowiązanego linku."
+    ],
+    "bottom_info": [
+      "Aby dowiedzieć się, w jaki sposób korzystasz z naszej strony, oraz w celu zapewnienia Ci większej wygody korzystania z naszej witryny, używamy plików cookie. Kontynuując korzystanie z naszej strony, zgadzasz się na wykorzystywanie przez nas plików cookie i akceptujesz naszą zmienioną Politykę prywatności oraz Warunki użytkowania. Ta strona zawiera artykuły sponsorowane.",
+      "Więcej informacji",
+      "OK",
+      "Zgłoś reklamę / spam"
+    ]
+  },
+  "ru": {
+    "modal_title": [
+      "Подождите!",
+      "Пока вы не ушли…"
+    ],
+    "modal_subtitle": [
+      "Рынки двигаются быстро. Не пропустите свой шанс получить прибыль от последних взлетов и падений.",
+      "Зарегистрируйтесь сегодня и присоединяйтесь к тысячам людей, которые меняют свою жизнь благодаря онлайн-трейдингу."
+    ],
+    "header_title": "– Рекламное сообщение –",
+    "title": "Извлекайте выгоду от биткоинов, даже когда рушатся рынки криптовалюты.",
+    "subtitle": [
+      "Присоединяйтесь сегодня",
+      " и узнайте",
+      "сколько вы можете заработать"
+    ],
+    "title_form": [
+      "ЗАРЕГИСТРИРУЙТЕСЬ НИЖЕ",
+      "и мы проведем вас через весь процесс."
+    ],
+    "first_name": "Имя",
+    "last_name": "Фамилия",
+    "email": "E-mail",
+    "password": "Пароль",
+    "phone_number": "Телефонный номер",
+
+    "button": "Начните прямо сейчас",
+    "passtest": {
+      "invalidlength": "Пароль должен быть длиной 8 символов.",
+      "nospecial": "Не должен содержать специальные символы.",
+      "nolowercase": "Должен содержать не менее 1 буквы.",
+      "nonumber": "Должен содержать как минимум 1 заглавную букву.",
+      "nouppercase": "Должен содержать не менее 1 цифры."
+    },
+    "agreement_first": "Я соглашаюсь с сохранением моего адреса электронной почты с целью получения информации и коммерческих предложений о торговом программном обеспечении и платформах.",
+    "agreement_second": [
+      "Я соглашаюсь с Условиями и Политикой конфиденциальности",
+      " Условиями",
+      "Политикой конфиденциальности"
+    ],
+    "more_title": [
+      "Вы можете в любое время передумать, нажав на ссылку для отписки в нижнем колонтитуле...",
+      "более"
+    ],
+    "more_decription": "любого полученного от нас электронного письма. Мы будем с уважением обращаться с вашей информацией. Нажимая выше, вы соглашаетесь, что мы можем обрабатывать вашу информацию в соответствии с этими условиями.",
+
+    "video_placeholder": "Нажмите, чтобы увидеть и узнать секрет!",
+
+    "faq_title": "ЧаВо",
+    "faq_subtitle": "Вот самые частые вопросы и наши ответы на них.",
+    "faq_questions": [
+      {
+        "q": "Безопасен ли биткоин?",
+        "a": "Если вы посмотрите на историю биткоина, то увидите что у него были как взлеты, так и падения. Однако, если присмотреться, то можно заметить, что после каждого падения он взмывает к новым высотам. Это происходит из-за того, что биткоин постоянно растет."
+      },
+      {
+        "q": "Какой у вас в этом интерес?",
+        "a": "Мы в Crypto Profit все являемся биткоин-инвесторами, а значит, что чем больше людей присоединится, тем больше станет биткоин."
+      },
+      {
+        "q": "В чем секрет?",
+        "a": "Секрет в том, что никакого секрета тут нет. Регистрируйтесь, и мы покажем вам, как легко начать торговать биткоинами."
+      },
+      {
+        "q": "Это рискованно?",
+        "a": "Степень риска зависит от того, как вы будете торговать. Зарегистрируйтесь сегодня, и мы покажем вам, как увеличить прибыль и свести риски к минимуму."
+      },
+      {
+        "q": "Зачем регистрироваться в Crypto Profit?",
+        "a": "Crypto Profit позволяет вам с легкостью торговать биткоинами за настоящие деньги. У нас также есть современная платформа, которая делает трейдинг еще легче, чем раньше. Не верите? Зарегистрируйтесь и посмотрите сами. Поучаствовать в биткоин-революции еще никогда не было так просто."
+      },
+      {
+        "q": "В чем уловка?",
+        "a": "Никакой уловки нет! Вы просто регистрируетесь, делаете первоначальный депозит размером 250 $, а мы делаем все остальное. Наша платформа позволяет с легкостью начать торговать биткоинами. Никаких хлопот, никакой суеты, поэтому вы сможете начать торговлю биткоинами мгновенно."
+      }
+    ],
+
+    "famous_title": "Известные имена среди торгующих",
+    "famous_subtitle": "Много громких имен торгуют у нас. Вот, что говорят самые известные торговцы.",
+    "famous_names": [
+      {
+        "img": "elder",
+        "name": "Alexander Elder",
+        "text": "Вы можете быть свободны. Вы можете жить и работать в любой точке планеты. Вы можете не зависеть от рутинной работы и не отвечать никому."
+      },
+      {
+        "img": "seykota",
+        "name": "Ed Seykota",
+        "text": "Победа или поражение, каждый получит то, чего они хотят от рынка. Некоторым людям кажется нравится проигрывать, потому они выигрывают теряя деньги."
+      },
+      {
+        "img": "oneil",
+        "name": "William O’Neil",
+        "text": "То, что обычно кажется слишком дорогим и рискованным для большинства, продается дороже, а то, что кажется низким и дешевым, обычно продается дешевле."
+      },
+      {
+        "img": "bufft",
+        "name": "Warren Buffett",
+        "text": "Вам необязательно быть ученым ракетостроения . Инвестирование это не игра, где человек с IQ 160 выигрывает у человека с IQ 130."
+      }
+    ],
+
+    "second_form_title": "Зарегистрируйтесь ниже",
+    "second_form_subtitle": "и мы проведем вас через весь процесс.",
+    "copyright": [
+      "Copyright",
+      "Crypto Profit"
+    ],
+    "disclaimer": [
+      "ВАЖНО: ",
+      "заработки и юридические отказы от ответственности",
+      "Заявления о заработках и доходе, сделанные , (в совокупности «Этот Сайт»), используются только как вдохновляющие примеры ваших потенциальных заработков. Успехи, описанные в рекомендациях клиентов и других примерах, являются исключительными результатами и поэтому не служат гарантией того, что вы добьетесь или другие люди добьются таких же результатов. Индивидуальные результаты могут быть различными и полностью зависят от использования вами .",
+      "Этот сайт не несет ответственности за ваши действия. Вы несете единоличную ответственность за свои действия и решения при использовании продуктов и услуг, и поэтому вам всегда следует проявлять осторожность и должную осмотрительность. Вы соглашаетесь с тем, что Этот сайт не отвечает перед вами любым способом за результаты использования наших продуктов и услуг. Смотрите наши Правила и условия, в которых приводится полный текст отказа от ответственности и другие ограничения.",
+      "Этот сайт может получать вознаграждение за то, что рекомендует вам товары и услуги. Если вы не хотите, чтобы Этот сайт получал компенсацию за рекомендации, мы советуем вам выполнить поиск аналогичного продукта в Интернете и воспользоваться непартнерской ссылкой."
+    ],
+    "bottom_info": [
+      "Мы используем файлы cookie, чтобы понять, как вы пользуетесь нашим сайтом, а также чтобы сделать работу с ним удобнее. Это включает в себя персонализированное содержимое и рекламу. Продолжая пользоваться нашим сайт, вы принимаете использование файлов cookie, исправленную Политику конфиденциальности и Условия использования. Данный сайт предоставляет информирующую рекламу. ",
+      "Подробнее",
+      "OK",
+      "Пожаловаться на объявление / спам"
+    ]
+  }
+}

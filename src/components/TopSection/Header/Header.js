@@ -1,34 +1,31 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
-import logo from './cryptocrash.svg'
+import logo from "./logo.svg"
 
 export default class Header extends Component {
-
     render() {
-        let languageManager = this.props.version;
-
+        let languageManager = this.props.languageManager();
         return (
-            <header className='Header'>
-                <div className="disclaimerHeader">{languageManager.disc}</div>
+            <header className="header-container">
                 <div className="container">
-                    <img src={logo} id="logoHeader" className="img-responsive" alt="logo"/>
-
-                    <div className="row">
-                        <div className="col-md-7 col-sm-10 col-lg-7">
-                            <h1>
-                                {languageManager.title}
-                            </h1>
-                            <h2>
-                                <strong>
-                                    <a>
-                                        <strong>{languageManager.subtitle}</strong>
-                                    </a>
-                                    {languageManager.span[0]} {languageManager.span[1]}
-                                </strong>
-                            </h2>
-                        </div>
+                    <div className="advertioral">
+                        <p>{languageManager.header_title}</p>
                     </div>
-                 </div>   
+                    <div className="logo">
+                        <a href="/">
+                            <img src={logo} alt="" draggable={false}/>
+                        </a>
+                    </div>
+                    <div className="text-zone">
+                        <h1>
+                            {languageManager.title}
+                        </h1>
+                        <h2>
+                            <span>{languageManager.subtitle[0]}</span>{languageManager.subtitle[1]}<br/>
+                            {languageManager.subtitle[2]}
+                        </h2>
+                    </div>
+                </div>
             </header>
         )
     }

@@ -1,25 +1,164 @@
+$blue: #1fc290;
+$purple: #922ba0;
+$orange: #f08c0a;
+$grey: #333333;
+$family: 'Roboto', sans-serif;
+$rounded: 'M PLUS Rounded 1c', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
 @import './components/TopSection/TopSection.scss';
 @import './components/MidSection/MidSection.scss';
 @import './components/BottomSection/BottomSection.scss';
 @import './pages/Page.scss';
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
-
 body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: $family;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    &.fixed {
+        overflow: hidden;
+    }
 }
 
 a {
-  text-decoration: underline;
+    text-decoration: underline;
 
-  &:hover {
-    text-decoration: none;
-  }
+    &:hover {
+        text-decoration: none;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $rounded;
+    font-weight: 700;
+    letter-spacing: -.025em;
+}
+p {
+    margin: 0;
+}
+button {
+    font-family: $rounded;
+    outline: none;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media (max-width: 768px) {
+        max-width: 100% !important;
+        padding: 0 15px;
+    }
+    .row {
+        margin: 0 !important;
+    }
+    .section-heading {
+        font-size: 52px;
+        font-weight: 900;
+        color: $purple;
+        margin-bottom: 20px;
+        text-align: center;
+        @media(max-width: 768px) {
+            font-size: 32px;
+        }
+        @media(max-width: 479px) {
+            font-size: 32px * 0.75;
+        }
+        &.size-l {
+            font-size: 29px;
+            @media(max-width: 960px) {
+                font-size: 29px * 0.75;
+            }
+            @media(max-width: 479px) {
+                font-size: 29px * 0.75;
+            }
+        }
+        &.white {
+            color: #fff;
+        }
+    }
+    .section-subtitle {
+        width: 45%;
+        margin: 0 auto;
+        font-family: $rounded;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.25;
+        color: $grey;
+        text-align: center;
+        @media(max-width: 960px) {
+            width: 100%;
+            font-size: 28px * 0.75;
+        }
+        @media(max-width: 479px) {
+            font-size: 28px * 0.55;
+        }
+    }
+}
+.App {
+    position: relative;
+    .privacy-policy {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba( 51, 51, 51, 0.95);
+        z-index: 100;
+        transition: all .5s ease;
+        .privacy-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 20px;
+            span, a {
+                color: #ffffff;
+                font-size: 16px;
+            }
+            a {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .buttons {
+                margin-left: 3em;
+                min-width: 160px;
+                text-align: center;
+                @media (max-width: 500px) {
+                    margin-left: 0;
+                    margin-top: 15px;
+                    display: block;
+                }
+            }
+            .btn-ok {
+                display: block;
+                background: $blue;
+                color: #fff;
+                border: none;
+                border-radius: 2px;
+                padding: .125rem 2rem;
+                transition: all .3s;
+                cursor: pointer;
+                font-size: 27px;
+                width: 100%;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                outline: none;
+                &:hover {
+                    background: #29C2B8;
+                }
+            }
+            @media (max-width: 500px) {
+                display: block;
+            }
+        }
+    }
 }
