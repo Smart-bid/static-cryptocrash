@@ -1,0 +1,39 @@
+.About {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    .container {
+        .wrapper-flex {
+            display: flex;
+            .text-zone {
+                width: 50%;
+                h3 {
+                    font-size: 52px;
+                    margin-top: 0;
+                    margin-bottom: 30px;
+                    color: $green;
+                }
+                p {
+                    font-family: auto;
+                    font-size: 21px;
+                    color: #333;
+                }
+            }
+            .image {
+                position: relative;
+                .chart {
+                    position: relative;
+                    top: 20px;
+                    left: 30px;
+                    width: 400px;
+                    z-index: 1;
+                }
+                .girl {
+                    width: 170px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,12 +1,12 @@
-$blue: #1fc290;
+$green: #95c11f;
+
+$blue: #52bce6;
 $purple: #922ba0;
 $orange: #f08c0a;
 $grey: #333333;
-$family: 'Roboto', sans-serif;
-$rounded: 'M PLUS Rounded 1c', sans-serif;
+$family: 'Source Sans Pro', sans-serif;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&display=swap');
 
 @import './components/TopSection/TopSection.scss';
 @import './components/MidSection/MidSection.scss';
@@ -35,7 +35,7 @@ img {
     height: auto;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: $rounded;
+    font-family: auto;
     font-weight: 700;
     letter-spacing: -.025em;
 }
@@ -43,7 +43,7 @@ p {
     margin: 0;
 }
 button {
-    font-family: $rounded;
+    font-family: $family;
     outline: none;
 }
 .hidden {
@@ -90,7 +90,7 @@ button {
     .section-subtitle {
         width: 45%;
         margin: 0 auto;
-        font-family: $rounded;
+        font-family: $family;
         font-size: 28px;
         font-weight: 500;
         line-height: 1.25;

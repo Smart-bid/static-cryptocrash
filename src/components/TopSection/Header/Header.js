@@ -21,8 +21,7 @@ export default class Header extends Component {
                             {languageManager.title}
                         </h1>
                         <h2>
-                            <span>{languageManager.subtitle[0]}</span>{languageManager.subtitle[1]}<br/>
-                            {languageManager.subtitle[2]}
+                            <span>{languageManager.subtitle[0]}</span>{languageManager.subtitle[1]} {languageManager.subtitle[2]}
                         </h2>
                     </div>
                 </div>

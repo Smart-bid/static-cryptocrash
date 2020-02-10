@@ -1,0 +1,43 @@
+.RunningLine {
+    padding: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    .wrap {
+        padding: 10px 0;
+        line-height: 1;
+
+        .line {
+            display: flex;
+            animation: 15s linear 0s infinite normal none running ticker;
+            .assetItem {
+                padding: 3px 8px;
+                margin: 0 5px;
+                border-radius: 3px;
+                font-size: .85em;
+                white-space: nowrap;
+                user-select: none;
+                .assetName {
+                    display: inline-block;
+                    margin-right: 5px;
+                    color: #fff;
+                }
+                &.asset-up {
+                    .assetValue {
+                        color: #95c11f;
+                    }
+                }
+                &.asset-down {
+                    .assetValue {
+                        font-weight: bold;
+                        color: #ec313b;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes ticker {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-100%)}
+}

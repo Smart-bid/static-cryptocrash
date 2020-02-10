@@ -1,62 +1,45 @@
 .famous-names {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e6e6;
     .container {
         .famous-name-list {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             .famous-person {
-                width: 48%;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                @media(max-width: 960px) {
-                    width: 100%;
-                }
-                &:first-child,
-                &:nth-child(2) {
-                    border-bottom: 1px solid #ececec;
-                    @media(max-width: 960px) {
-                        border-bottom: none !important;
-                    }
+                width: 50%;
+                padding: 35px 2%;
+                border-bottom: 1px solid #e6e6e6;
+                &:nth-child(5),
+                &:last-child {
+                    border-bottom: none;
                 }
                 .wrap {
                     display: flex;
                     .img {
+                        margin-right: 25px;
                         img {
-                            max-width: 160px;
-                            border-radius: 50%;
-                            @media(max-width: 375px) {
-                                max-width: 130px;
-                            }
+                            width: 160px;
+                            min-width: 160px;
+                            border-radius: 20px;
+                            overflow: hidden;
                         }
                     }
                     .person-info {
-                        padding-top: 40px;
                         h4 {
-                            width: fit-content;
-                            position: relative;
-                            left: -35px;
-                            font-size: 24px;
-                            font-weight: 500;
-                            padding: 14px 18px;
-                            color: $orange;
-                            background-color: #fff;
-                            border-radius: 5px;
-                            @media(max-width: 479px) {
-                                font-size: 24px * 0.75;
+                            &.name {
+                                font-size: 24px;
+                                line-height: 1.2;
+                                color: $orange;
+                                margin-top: 0;
+                                margin-bottom: 15px;
                             }
                         }
                         p {
-                            font-size: 20px;
-                            font-weight: 400;
                             font-style: italic;
-                            line-height: 1.3;
-                            padding-top: 10px;
-                            padding-left: 30px;
-                            color: $grey;
-                            @media(max-width: 479px) {
-                                font-size: 20px * 0.75;
-                                padding-left: 0;
-                            }
+                            line-height: 1.2;
+                            color: #333;
+                            margin: 0;
                         }
                     }
                 }

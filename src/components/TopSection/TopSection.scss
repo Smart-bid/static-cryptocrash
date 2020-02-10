@@ -1,9 +1,8 @@
 @import './Header/Header';
 @import './Regform/Regform';
+@import './RunningLine/RunningLine';
 
 .TopSection {
-    padding-bottom: 45px;
-    border-bottom: 1px solid #cecece;
     .hidden-block {
         display: flex;
         justify-content: flex-end;
@@ -19,8 +18,9 @@
     }
 
     .top-reg {
-        margin-top: 40px;
-        padding-bottom: 30px;
+        position: relative;
+        margin-top: -200px;
+        z-index: 999;
         .row {
             @media(max-width: 960px) {
                 max-width: 720px;
@@ -34,13 +34,15 @@
                     padding: 0;
                 }
                 .VideoPlayer {
-                    border: 3px solid #fff;
-                    height: 100%;
-                    position: relative;
-                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-                    background: black;
                     width: 100%;
                     max-width: 650px;
+                    height: 100%;
+                    position: relative;
+                    background: black;
+                    border: 3px solid #fff;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+                    overflow: hidden;
                     @media (max-width: 960px) {
                         max-width: 100%;
                         border: none !important;
@@ -99,14 +101,39 @@
                 }
             }
         }
-    }
 
-    .brand-icons {
-        .container {
-            width: fit-content;
-            img {
-                max-width: 320px;
-                filter: grayscale(100%);
+        //Brand Icons
+        .brand-icons {
+            padding: 0 15px;
+            margin-bottom: 45px;
+            .wrapper {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                padding: 15px;
+                border: 1px dashed #e6e6e6;
+                border-radius: 10px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 10px;
+                    left: -24px;
+                    padding: 23px;
+                    background-color: #fff;
+                    background-image: url("./images/lock.svg");
+                    background-size: 20px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border: 1px dashed #e6e6e6;
+                    border-radius: 50%;
+                }
+                img {
+                    display: block;
+                    max-height: 40px;
+                    margin-left: 14px;
+                    margin-right: 14px;
+                }
             }
         }
     }

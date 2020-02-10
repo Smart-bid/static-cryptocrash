@@ -1,19 +1,24 @@
 import React, {Component} from 'react'
 
-import elder from './img/alexander-elder.jpg'
-import seykota from './img/ed-seykota.jpg'
-import oneil from './img/william-o-neil.jpg'
-import bufft from './img/warren-buffett.jpg'
+//Images
+import camilla from './img/camila-russo.jpg'
+import steve from './img/steve-jobs.jpg'
+import mike from './img/mike-novogratz.jpg'
+import john from './img/john-mcafee.jpg'
+import richard from './img/richard-branson.jpg'
+import warren from './img/warren-buffett.jpg'
 
 export default class FamousNames extends Component {
     constructor(props) {
         super(props);
         this.state = {
             images: {
-                elder,
-                seykota,
-                oneil,
-                bufft
+                camilla,
+                steve,
+                mike,
+                john,
+                richard,
+                warren
             }
         }
     }

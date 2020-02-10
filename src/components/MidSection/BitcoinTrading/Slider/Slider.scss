@@ -1,0 +1,196 @@
+.Slider {
+    position: relative;
+    .swiper-container {
+        padding-top: 25px;
+        padding-bottom: 65px;
+        .swiper-wrapper {
+            .swiper-slide {
+                width: 100%;
+                position: relative;
+                background-image: linear-gradient(0deg, rgba(236,236,236,0.5) 2.38%, rgba(255,255,255,0) 2.38%, rgba(255,255,255,0) 50%, rgba(236,236,236,0.5) 50%, rgba(236,236,236,0.5) 52.38%, rgba(255,255,255,0) 52.38%, rgba(255,255,255,0) 100%);
+                background-size: 1px 60px;
+                padding: 15px 15px 30px;
+                margin-bottom: 30px;
+                border: 1px solid #ececec;
+                border-radius: 8px;
+                svg {
+                    width: 100%;
+                    max-height: 180px;
+                    display: block;
+                    rect {
+                        animation-name: clip-move;
+                        animation-duration: 5s;
+                        animation-iteration-count: infinite;
+                        @keyframes clip-move {
+                            0% {transform: translateX(-105%);}
+                            50% {transform: translateX(0);}
+                            100% {transform: translateX(0);}
+                        }
+                    }
+                }
+                .badge {
+                    max-width: 90px;
+                    height: 27px;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    top: -20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    background-color: #fff;
+                    border-top: 1px solid #969696;
+                    border-left: 1px solid #e6e6e6;
+                    border-right: 1px solid #e6e6e6;
+                    border-radius: 3px 3px 0 0;
+                    span {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #969696;
+                    }
+                }
+            }
+        }
+        .swiper-button-prev {
+            left: 0;
+            border-radius: 10px 0 0 10px;
+            &:before {
+                transform: rotate(-45deg);
+            }
+        }
+        .swiper-button-next {
+            right: 0;
+            border-radius: 0 10px 10px 0;
+            &:before {
+                transform: rotate(135deg);
+            }
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            height: 28px;
+            top: calc(50% - 30px);
+            background-color: #fff;
+            border: 1px solid #e6e6e6;
+            opacity: 1 !important;
+            &:after {
+                display: none;
+            }
+            &:before {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-top: 2px solid #807f7f;
+                border-left: 2px solid #807f7f;
+            }
+        }
+        .swiper-pagination {
+            .swiper-pagination-bullet {
+                width: 100px;
+                height: 60px;
+                opacity: .25;
+                margin-right: 12px;
+                margin-left: 12px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                transition: .4s all;
+                &.swiper-pagination-bullet-active {
+                    opacity: 1;
+                    transform: translateY(-7px);
+                }
+                &:first-child {
+                    background-image: url("../images/bitcoin.svg");
+                }
+                &:nth-child(2) {
+                    background-image: url("../images/ethereum.svg");
+                }
+                &:nth-child(3) {
+                    background-image: url("../images/litecoin.svg");
+                }
+            }
+        }
+    }
+    .years-chart {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 104px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+        &:before {
+            content: "";
+            width: calc(100%);
+            height: 1px;
+            display: block;
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+            border-top: 1px dashed #ececec;
+            z-index: 4;
+        }
+        span {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 700;
+            background-color: #fff;
+            padding: 0 12px;
+            color: #969696;
+            z-index: 5;
+        }
+    }
+}
+
+
+//First Slide
+.cls-1-btc,
+.cls-4-btc,
+.cls-1-eth,
+.cls-4-eth,
+.cls-1-ltc,
+.cls-4-ltc {
+    fill: none;
+}
+.cls-2-btc,
+.cls-2-eth,
+.cls-2-ltc {
+    clip-path: url(#clip-path-btc);
+}
+.cls-3-btc {
+    fill: #ffdca7;
+    stroke: #ffdca7;
+    stroke-linejoin: round;
+    stroke-width: 0;
+}
+
+//Second Slide
+.cls-3-eth {
+    fill: #daeeba;
+    stroke: #daeeba;
+    stroke-linejoin: round;
+    stroke-width: 0px;
+}
+
+.cls-4-eth {
+    stroke: #3AAA35;
+    stroke-miterlimit: 10;
+    stroke-width: 1px;
+}
+
+//Third Slide
+.cls-3-ltc {
+    fill: #efefef;
+    stroke: #efefef;
+    stroke-linejoin: round;
+    stroke-width: 0;
+}
+.cls-4-ltc {
+    stroke: #908d8d;
+    stroke-miterlimit: 10;
+    stroke-width: 1px;
+}

@@ -1,13 +1,5 @@
 {
   "en": {
-    "modal_title": [
-      "Wait!",
-      "Before you leave..."
-    ],
-    "modal_subtitle": [
-      "The markets are moving fast. Don’t miss out on your chance to profit from the latest rises and falls.",
-      "Register today and join the thousands of people changing their lives thanks to online trading."
-    ],
     "header_title": "– Advertorial –",
     "title": "Benefit from bitcoin even when the crypto markets are crashing.",
     "subtitle": [
@@ -46,7 +38,51 @@
     "more_decription": "You can change your mind at any time by clicking on the unsubscribe link in the footer of any email you receive from us. We will treat your information with respect. By clicking above, you agree that we may process your information in accordance with these terms.",
 
     "video_placeholder": "Tap to watch and learn the secret!",
-    
+
+    "bitcoin_trading_title": "How does bitcoin trading work?",
+    "bitcoin_trading_subtitle": "Crypto Crash Fortune allows you to make deals with your registered broker based on the price of cryptocurrencies. You can enter into agreements and speculate on whether the price will go up or down. If your agreement states that the price will fall then, when it falls, you will profit. These agreements are called Contracts for Difference or CFDs.",
+
+    "famous_title": "What influencers are saying:",
+    "famous_subtitle": "Here is what some of the most influential people of all time have to say",
+    "famous_names": [
+      {
+        "img": "camilla",
+        "name": "Camila Russo",
+        "text": "One of the most popular ways to short bitcoin is through CFDs, a derivative that mirrors the movements of the asset. It’s a contract between the client and the broker, where the buyer and seller of the CFD agree to settle any rise or drop in prices in cash on the contract date."
+      },
+      {
+        "img": "steve",
+        "name": "Steve Jobs",
+        "text": "Your time is limited, so don't waste it living someone else's life... Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition."
+      },
+      {
+        "img": "mike",
+        "name": "Mike Novogratz",
+        "text": "Ten percent of my net worth is in this space."
+      },
+      {
+        "img": "john",
+        "name": "John McAfee",
+        "text": "You don't need to be a rocket scientist. Investing is not a game where the guy with the 160 IQ beats the guy with 130 IQ."
+      },
+      {
+        "img": "richard",
+        "name": "Richard Branson",
+        "text": "My philosophy is that if I have any money I invest it in new ventures and not have it sitting around."
+      },
+      {
+        "img": "warren",
+        "name": "Warren Buffett",
+        "text": "You don't need to be a rocket scientist. Investing is not a game where the guy with the 160 IQ beats the guy with 130 IQ."
+      }
+    ],
+
+    "about_title": "About CFDs",
+    "about_info": [
+      "CFDs allow you to start trading without buying or selling physical shares.",
+      "This makes trading quicker and easier than ever before. All you need to do is decide whether or not you think the prices will rise or fall. If you invest in the price of Bitcoin rising, you will earn money based on the price difference when it does. The same applies when the price falls! And right now, people are making much more money from price crashes."
+    ],
+
     "faq_title": "FAQ",
     "faq_subtitle": "Here are the most common questions with our answers.",
     "faq_questions": [
@@ -73,31 +109,6 @@
       {
         "q": "What’s the catch?",
         "a": "No catch! You simply sign up, deposit an initial trading amount of $250 and we’ll do the rest. Our platform enables the easiest way to get started trading Bitcoin. No hassle, no fuss so that you can start earning instantly."
-      }
-    ],
-
-    "famous_title": "Famous names in trading",
-    "famous_subtitle": "Here are the most common questions with our answers.",
-    "famous_names": [
-      {
-        "img": "elder",
-        "name": "Alexander Elder",
-        "text": "You can be free. You can live and work anywhere in the world. You can be independent from routine and not answer to anybody"
-      },
-      {
-        "img": "seykota",
-        "name": "Ed Seykota",
-        "text": "Win or lose, everybody gets what they want out of the market. Some people seem to like to lose, so they win by losing money."
-      },
-      {
-        "img": "oneil",
-        "name": "William O’Neil",
-        "text": "What seems too high and risky to the majority generally goes higher and what seems low and cheap generally goes lower."
-      },
-      {
-        "img": "bufft",
-        "name": "Warren Buffett",
-        "text": "You don't need to be a rocket scientist. Investing is not a game where the guy with the 160 IQ beats the guy with 130 IQ."
       }
     ],
 

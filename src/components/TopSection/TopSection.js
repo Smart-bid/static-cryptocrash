@@ -3,23 +3,19 @@ import React, {Component} from 'react'
 //Components
 import Header from "./Header/Header"
 import VideoPlayer from './VideoPlayer/VideoPlayer.js'
-// import Regform from './Regform/Regform'
 import Regform from './Regform/Regform'
+import RunningLine from './RunningLine/RunningLine'
 
 //Images
-import logo from './Header/logo.svg'
-import brandIcons from './brand-icons.png'
+import norton from './images/norton_logo.png';
+import mcAfee from './images/mcafee_logo.png';
+import truste from './images/truste_logo.png';
+import accreditedBusiness from './images/bbb_logo.png';
+import nasdaq from './images/nasdaq_logo.png';
+import euronext from './images/euronext_logo.png';
+import tmx from './images/tmx_logo.png';
 
 export default class TopSection extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            showModal: null,
-        }
-    }
-
-    body = document.getElementsByTagName("body")[0];
-
     render() {
         let languageManager = this.props.languageManager();
         return (
@@ -45,15 +41,22 @@ export default class TopSection extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="brand-icons">
+                            <div className="wrapper">
+                                <img src={norton} alt=""/>
+                                <img src={mcAfee} alt=""/>
+                                <img src={truste} alt=""/>
+                                <img src={accreditedBusiness} alt=""/>
+                                <img src={nasdaq} alt=""/>
+                                <img src={euronext} alt=""/>
+                                <img src={tmx} alt=""/>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div className="brand-icons">
-                    <div className="container">
-                        <img src={brandIcons} alt="" draggable={false}/>
-                    </div>
+                <RunningLine/>
 
-                </div>
             </section>
         )
     }

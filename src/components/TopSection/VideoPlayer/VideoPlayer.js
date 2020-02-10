@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import ReactPlayer from 'react-player'
 
-import enVideo from './en-video.mp4'
 import btn from './play_btn.png'
 
 export default class VideoPlayer extends Component {
@@ -30,7 +29,7 @@ export default class VideoPlayer extends Component {
                     <p>{languageManager.video_placeholder}</p>
                     <img src={btn} alt="play-button"/>
                 </div>
-                <ReactPlayer url={enVideo} playing={this.state.play} controls={true} muted width='100%' height='100%' onClick={this.props.trackVideoPlay}/>
+                <ReactPlayer url="https://player.vimeo.com/video/323785939?app_id=122963" playing={this.state.play} controls={true} muted width='100%' height='100%' onClick={this.props.trackVideoPlay}/>
             </div>
         )
     }
