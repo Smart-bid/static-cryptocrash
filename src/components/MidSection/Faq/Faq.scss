@@ -1,0 +1,106 @@
+.Faq {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-top: -60px;
+    background-color: #e9f5fb;
+    @media (max-width: 479px) {
+        padding-top: 75px;
+    }
+    &:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url("./wave_cut.svg") no-repeat center bottom;
+        transform: scaleX(-1) scaleY(-1);
+        @media screen and (min-width: 920px) {
+            background-size: 100% 250px;
+        }
+        @media(max-width: 960px) {
+            background-size: 100% 100px;
+        }
+    }
+    .container {
+        .section-heading {
+            font-size: 52px;
+            color: $green;
+        }
+        .section-subtitle {
+            font-family: auto;
+            font-size: 28px;
+            font-weight: 400;
+        }
+        .faq-block {
+            max-width: 780px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 45px;
+            .accordion > .card {
+                background: transparent;
+                border: none;
+                border-radius: 4px;
+                margin-bottom: 15px;
+                overflow: hidden;
+                padding: 0;
+            }
+            .card-header {
+                padding: 0;
+                background-color: transparent;
+                border-bottom: none;
+                outline: none;
+            }
+            .question {
+                display: block;
+                padding: 10px 10px 10px 75px;
+                cursor: pointer;
+                background: #ffffff;
+                color: #000;
+                width: 100%;
+                text-align: left;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                position: relative;
+                transition: .1s all;
+                @media(max-width: 768px) {
+                    font-size: 17px;
+                }
+                &.false {
+                    background: transparent !important;
+                    color: $orange;
+                    border-bottom: 2px solid $orange;
+                    &:before {
+                        background-color: $orange;
+                        background-image: url("./minus.svg");
+                    }
+                }
+                &:hover {
+                    color: $orange;
+                    background-color: rgba(230,230,230,0.5);
+                    text-decoration: none;
+                }
+                &:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 50px;
+                    border-right: 1px solid #e9f5fb;
+                    background-size: 12px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-image: url("./plus.svg");
+                }
+            }
+            .card-body {
+                font-size: 18px;
+                padding: 10px 0;
+            }
+        }
+    }
+}

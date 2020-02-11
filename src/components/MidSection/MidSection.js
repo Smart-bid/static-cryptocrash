@@ -4,6 +4,7 @@ import Regform from "../TopSection/Regform/Regform"
 import BitcoinTrading from "./BitcoinTrading/BitcoinTrading"
 import FamousNames from "./FamousNames/FamousNames";
 import About from "./About/About";
+import Faq from "./Faq/Faq";
 
 export default class MidSection extends Component {
     render() {
@@ -16,6 +17,8 @@ export default class MidSection extends Component {
                 <FamousNames languageManager={this.props.languageManager}/>
 
                 <About languageManager={this.props.languageManager}/>
+
+                <Faq languageManager={this.props.languageManager}/>
 
                 <section className="bottom-regform">
                     <div className="container">

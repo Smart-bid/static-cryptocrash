@@ -13,6 +13,12 @@
     @media screen and (min-width: 1200px) {
         padding-bottom: 250px;
     }
+    @media (max-width: 1280px) {
+        padding-bottom: 200px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 140px;
+    }
     &:after {
         content: "";
         display: block;
@@ -25,6 +31,9 @@
         background: url("./images/wave_cut.svg") no-repeat center bottom;
         @media screen and (min-width: 768px) {
             background-size: 100% 200px
+        }
+        @media(max-width: 768px) {
+            background-size: 100% 100px;
         }
     }
     .container {
@@ -40,6 +49,9 @@
         .logo {
             img {
                 max-width: 250px;
+                @media(max-width: 479px) {
+                    max-width: 180px;
+                }
             }
         }
         .text-zone {

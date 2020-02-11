@@ -11,7 +11,7 @@ const About = (props) => {
             <div className="container">
                 <div className="wrapper-flex">
                     <div className="text-zone">
-                        <h3>
+                        <h3 className="section-heading left">
                             {languageManager.about_title}
                         </h3>
                         <p>

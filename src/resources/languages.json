@@ -84,31 +84,23 @@
     ],
 
     "faq_title": "FAQ",
-    "faq_subtitle": "Here are the most common questions with our answers.",
+    "faq_subtitle": "Here are some of the answers to questions customers frequently ask.",
     "faq_questions": [
       {
-        "q": "Is Bitcoin safe?",
-        "a": "If you look at bitcoin’s history it has lots of ups and downs. However, look more closely and you’ll notice that after every time it goes down it increases to a new high. This is because Bitcoin is constantly growing."
+        "q": "Can you really earn money from falling prices?",
+        "a": "Yes! CFDs allow you to trade on the price of cryptocurrencies. This means that you can invest in profits and losses. When you invest in a loss, you are saying to the broker that you think the price will go down.\n\nWhen selling short, you borrow shares at the current price. Let’s say you borrow 100 shares at $1 each. If the price falls to $0.9, when you give the broker back their shares, you give them 100 x $0.9 = $90, and you receive $10. The broker still has all of their shares and you make a profit. It’s as simple as that."
       },
       {
-        "q": "What’s in it for us?",
-        "a": "At Bitcoin Profit, we are all investors in Bitcoin. Therefore, we know that the more people that join us, the bigger Bitcoin will grow."
+        "q": "How much money can I earn? (example)",
+        "a": "The amount you earn is completely down to you and how much you are willing to invest. The most successful investors are those that reinvest a percentage of their profits. This is because you always stand to earn more the larger your investment. If prices fall by 10% and you invest $100, you’ll receive $10 profit. However, if you invest $1000, you will receive $100."
       },
       {
-        "q": "What’s the secret?",
-        "a": "The secret is that there is no secret. Join today and we’ll show you just how easy it is to get started trading Bitcoin."
+        "q": "Do I need any previous trading experience?",
+        "a": "Previous experience always helps but Crypto Crash Fortune is designed to help beginners and professionals. You will be provided with everything you need to ensure you make the right decisions from day one."
       },
       {
-        "q": "Is it risky?",
-        "a": "The risk levels depend on how you trade. Join us today and we’ll show you how to maximise your profits and minimise your risk."
-      },
-      {
-        "q": "Why Join Bitcoin Profit?",
-        "a": "Bitcoin Profit enables you to easily trade your Bitcoin for real cash. We also have a state of the art platform which makes trading easier than ever before. Don’t believe us? Join today and see for yourself. Getting involved in the Bitcoin revolution has never been easier."
-      },
-      {
-        "q": "What’s the catch?",
-        "a": "No catch! You simply sign up, deposit an initial trading amount of $250 and we’ll do the rest. Our platform enables the easiest way to get started trading Bitcoin. No hassle, no fuss so that you can start earning instantly."
+        "q": "How much does it cost?",
+        "a": "Crypto Crash Fortune do not charge for using their services. The only amount you need is a minimum of $250 for your first investment, which is yours to keep and trade.\n\n"
       }
     ],
 
@@ -116,7 +108,7 @@
     "second_form_subtitle": "and we’ll guide you through the process.",
     "copyright": [
       "Copyright",
-      "Crypto Profit"
+      "Crypto Crash Fortune"
     ],
     "disclaimer": [
       "IMPORTANT: ",
@@ -238,7 +230,7 @@
     "second_form_subtitle": "y te guiaremos a través del proceso.",
     "copyright": [
       "Copyright",
-      "Crypto Profit"
+      "Crypto Crash Fortune"
     ],
     "disclaimer": [
       "IMPORTANTE: ",

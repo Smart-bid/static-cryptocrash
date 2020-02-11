@@ -14,7 +14,7 @@ const BitcoinTrading = (props) => {
                         <img src={person} alt="" draggable={false} />
                     </div>
                     <div className="info">
-                        <h3 className="title">
+                        <h3 className="section-heading left">
                             {languageManager.bitcoin_trading_title}
                         </h3>
                         <p>

@@ -1,11 +1,21 @@
 .About {
     padding-top: 65px;
     padding-bottom: 65px;
+    @media (max-width: 479px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .container {
         .wrapper-flex {
             display: flex;
+            @media(max-width: 768px) {
+                flex-wrap: wrap;
+            }
             .text-zone {
                 width: 50%;
+                @media(max-width: 768px) {
+                    width: 100%;
+                }
                 h3 {
                     font-size: 52px;
                     margin-top: 0;
@@ -16,22 +26,39 @@
                     font-family: auto;
                     font-size: 21px;
                     color: #333;
+                    @media (max-width: 479px) {
+                        font-size: 21px * 0.75;
+                    }
                 }
             }
             .image {
                 position: relative;
+                @media(max-width: 768px) {
+                    width: 100%;
+                }
                 .chart {
                     position: relative;
                     top: 20px;
                     left: 30px;
                     width: 400px;
                     z-index: 1;
+                    @media(max-width: 768px) {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        top: -40px;
+                        margin-top: -160px;
+                        z-index: -1;
+                    }
                 }
                 .girl {
                     width: 170px;
                     position: absolute;
                     top: 0;
                     left: 0;
+                    @media(max-width: 768px) {
+                        display: none;
+                    }
                 }
             }
         }

@@ -2,34 +2,50 @@
 
 .BitcoinTrading {
     position: relative;
-    //background-image: url("./images/crypto_pattern.png"), url("./images/bg_ambient.jpg");
+    background-image: url("./images/crypto_pattern.png"), url("./images/bg_ambient.jpg");
     background-position: center, center;
     background-size: 450px, cover;
     background-repeat: repeat, no-repeat;
     padding-bottom: 0;
-    overflow: hidden;
-    //&:after {
-    //    content: '';
-    //    display: block;
-    //    position: absolute;
-    //    z-index: 1;
-    //    bottom: 0;
-    //    left: -5%;
-    //    width: 110%;
-    //    height: 100%;
-    //    background: url("./images/wave_cut.svg") no-repeat center bottom;
-    //    background-size: 100% 250px;
-    //    transform: scaleX(-1);
-    //}
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("./images/wave_cut.svg") no-repeat center bottom;
+        background-size: 100% 250px;
+        transform: scaleX(-1);
+        pointer-events: none;
+    }
     .container {
         .wrapper-flex {
+            position: relative;
             display: flex;
             align-items: center;
+            @media(max-width: 960px) {
+                top: 30px;
+                justify-content: center;
+                flex-direction: column-reverse;
+            }
             .background {
                 margin-right: 30px;
+                @media(max-width: 960px) {
+                    width: 100%;
+                    margin-right: 0;
+                }
                 img {
                     max-height: 600px;
                     filter: drop-shadow(0 0 25px rgba(0,0,0,0.15));
+                    @media(max-width: 960px) {
+                        display: block;
+                        max-height: 400px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
             }
             .info {
@@ -44,6 +60,9 @@
                     font-size: 21px;
                     line-height: 1.4;
                     color: #333;
+                    @media (max-width: 479px) {
+                        font-size: 21px * 0.75;
+                    }
                 }
             }
         }

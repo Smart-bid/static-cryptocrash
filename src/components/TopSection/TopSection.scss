@@ -21,6 +21,9 @@
         position: relative;
         margin-top: -200px;
         z-index: 999;
+        @media (max-width: 1280px) {
+            margin-top: -110px;
+        }
         .row {
             @media(max-width: 960px) {
                 max-width: 720px;
@@ -62,7 +65,7 @@
                         transition: 250ms opacity ease;
                         cursor: pointer;
                         visibility: visible;
-
+                        //pointer-events: none;
                         p {
                             font-size: 18px;
                             line-height: 1.2;
@@ -84,11 +87,26 @@
                                 width: 60px;
                             }
                         }
+                        + div {
+                            width: 100% !important;
+                            height: 100% !important;
+                            > div {
+                                position: relative;
+                                padding-bottom: 56%;
+                            }
+                        }
                     }
 
                     .videoOverlayInner.false {
                         visibility: hidden;
                         z-index: 0;
+                    }
+                    iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
                     }
 
                 }
@@ -114,6 +132,9 @@
                 padding: 15px;
                 border: 1px dashed #e6e6e6;
                 border-radius: 10px;
+                @media(max-width: 960px) {
+                    flex-wrap: wrap;
+                }
                 &:before {
                     content: '';
                     position: absolute;

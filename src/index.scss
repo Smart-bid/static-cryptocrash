@@ -65,19 +65,22 @@ button {
     .section-heading {
         font-size: 52px;
         font-weight: 900;
-        color: $purple;
+        color: $green;
         margin-bottom: 20px;
         text-align: center;
+        &.left {
+            text-align: left;
+        }
         @media(max-width: 768px) {
-            font-size: 32px;
+            font-size: 32px !important;
         }
         @media(max-width: 479px) {
-            font-size: 32px * 0.75;
+            font-size: 32px * 0.75 !important;
         }
         &.size-l {
             font-size: 29px;
             @media(max-width: 960px) {
-                font-size: 29px * 0.75;
+                font-size: 29px * 0.75 !important;
             }
             @media(max-width: 479px) {
                 font-size: 29px * 0.75;
@@ -98,10 +101,10 @@ button {
         text-align: center;
         @media(max-width: 960px) {
             width: 100%;
-            font-size: 28px * 0.75;
+            font-size: 28px * 0.75 !important;
         }
         @media(max-width: 479px) {
-            font-size: 28px * 0.55;
+            font-size: 28px * 0.66 !important;
         }
     }
 }

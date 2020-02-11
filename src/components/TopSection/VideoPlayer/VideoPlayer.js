@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import ReactPlayer from 'react-player'
+import Vimeo from '@u-wave/react-vimeo'
 
 import btn from './play_btn.png'
 
@@ -8,7 +8,7 @@ export default class VideoPlayer extends Component {
         super(props)
 
         this.state = {
-            play: false,
+            play: true,
             hide: true
         }
     }
@@ -17,9 +17,10 @@ export default class VideoPlayer extends Component {
         this.setState({
             hide: !this.state.hide,
             play: !this.state.play
+        }, () => {
+            this.props.trackVideoPlay();
         });
     };
-
 
     render() {
         let languageManager = this.props.languageManager();
@@ -29,7 +30,8 @@ export default class VideoPlayer extends Component {
                     <p>{languageManager.video_placeholder}</p>
                     <img src={btn} alt="play-button"/>
                 </div>
-                <ReactPlayer url="https://player.vimeo.com/video/323785939?app_id=122963" playing={this.state.play} controls={true} muted width='100%' height='100%' onClick={this.props.trackVideoPlay}/>
+                <Vimeo video="https://player.vimeo.com/video/323785939?app_id=122963" paused={this.state.play}
+                       responsive={true} className="vimeo-player"/>
             </div>
         )
     }
